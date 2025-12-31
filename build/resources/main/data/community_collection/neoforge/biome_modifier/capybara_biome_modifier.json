@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "swamp",
+  "spawners": {
+    "type": "community_collection:capybara",
+    "weight": 6,
+    "minCount": 5,
+    "maxCount": 10
+  }
+}

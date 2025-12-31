@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "backpack",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:leather",
+    "b": "minecraft:tripwire_hook"
+  },
+  "result": {
+    "id": "community_collection:leather_backpack",
+    "count": 1
+  }
+}

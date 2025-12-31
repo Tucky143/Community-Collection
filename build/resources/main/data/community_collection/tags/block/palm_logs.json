@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "community_collection:stripped_palm_wood",
+    "community_collection:palm_wood",
+    "community_collection:palm_log",
+    "community_collection:stripped_palm_log"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 81,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:StrippedPalmLog"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StrippedPalmLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPalmLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StrippedPalmLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPalmLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedPalmWood"
+    },
+    "name": "stripped_palm_wood_recipe",
+    "namespace": "mod"
+  }
+}

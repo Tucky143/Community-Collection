@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "community_collection:block/palm_door_bottom",
+    "bottom": "community_collection:block/palm_door_bottom",
+    "top": "community_collection:block/palm_door_top"
+  },
+  "render_type": "cutout"
+}

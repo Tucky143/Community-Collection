@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "community_collection:blocks/light_gray_concrete_stairs",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "community_collection:light_gray_concrete_stairs"
+        }
+      ]
+    }
+  ]
+}

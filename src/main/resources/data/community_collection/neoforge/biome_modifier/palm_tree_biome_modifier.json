@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "beach",
+  "features": "community_collection:palm_tree",
+  "step": "vegetal_decoration"
+}

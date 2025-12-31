@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:black_concrete"
+  },
+  "result": {
+    "id": "community_collection:black_concrete_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-12-27 00:06:45 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:flower_forest": "2025-12-27 00:06:46 -0700",
+      "minecraft:snowy_slopes": "2025-12-27 00:09:28 -0700",
+      "minecraft:beach": "2025-12-27 00:07:58 -0700",
+      "minecraft:forest": "2025-12-27 00:08:16 -0700",
+      "minecraft:deep_ocean": "2025-12-27 00:08:48 -0700",
+      "minecraft:river": "2025-12-27 00:10:08 -0700",
+      "minecraft:lukewarm_ocean": "2025-12-27 18:40:47 -0700",
+      "minecraft:old_growth_birch_forest": "2025-12-27 00:08:11 -0700",
+      "minecraft:deep_dark": "2025-12-27 00:09:40 -0700",
+      "minecraft:ocean": "2025-12-27 00:08:33 -0700",
+      "minecraft:meadow": "2025-12-27 00:09:37 -0700",
+      "minecraft:plains": "2025-12-27 00:09:39 -0700",
+      "minecraft:deep_lukewarm_ocean": "2025-12-27 18:40:58 -0700"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-12-27 00:10:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-12-27 14:46:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-12-27 14:46:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-12-27 14:46:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-12-27 14:46:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-12-27 14:46:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-12-27 14:46:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-12-27 14:46:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-12-27 14:46:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2025-12-27 14:46:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-12-27 14:46:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-12-27 14:46:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-12-27 15:09:14 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-12-27 18:38:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-12-27 18:42:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-12-27 19:08:07 -0700"
+    },
+    "done": true
+  },
+  "community_collection:recipes/light_blue_concrete_slab_recipe": {
+    "criteria": {
+      "has_the_recipe": "2025-12-27 19:08:34 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

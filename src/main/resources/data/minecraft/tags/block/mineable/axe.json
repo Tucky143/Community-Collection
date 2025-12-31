@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "community_collection:palm_button",
+    "community_collection:palm_planks",
+    "community_collection:palm_door",
+    "community_collection:palm_stairs",
+    "community_collection:palm_trapdoor",
+    "community_collection:palm_fence_gate",
+    "community_collection:stripped_palm_wood",
+    "community_collection:palm_wood",
+    "community_collection:palm_log",
+    "community_collection:palm_fence",
+    "community_collection:palm_slab",
+    "community_collection:palm_pressure_plate",
+    "community_collection:stripped_palm_log"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "community_collection:ice_cave",
+  "features": "community_collection:cave_ice_spike",
+  "step": "underground_decoration"
+}

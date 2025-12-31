@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "community_collection:block/permafrost",
+    "particle": "community_collection:block/permafrost"
+  },
+  "render_type": "solid"
+}

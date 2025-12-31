@@ -1,0 +1,3335 @@
+{
+  "mod_elements": [
+    {
+      "name": "OakAppleLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_apple_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/block/OakAppleLeavesBlock.java",
+          "src/main/resources/assets/community_collection/models/item/oak_apple_leaves.json",
+          "src/main/resources/assets/community_collection/blockstates/oak_apple_leaves.json",
+          "src/main/resources/assets/community_collection/models/block/oak_apple_leaves.json",
+          "src/main/resources/assets/community_collection/items/oak_apple_leaves.json"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Apple"
+    },
+    {
+      "name": "OakAppleLeavesLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_apple_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/oak_apple_leaves.json"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Apple"
+    },
+    {
+      "name": "AppleTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/worldgen/placed_feature/apple_tree.json",
+          "src/main/resources/data/community_collection/worldgen/configured_feature/apple_tree.json",
+          "src/main/resources/data/community_collection/neoforge/biome_modifier/apple_tree_biome_modifier.json"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Apple"
+    },
+    {
+      "name": "AppleTreeSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_tree_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/block/AppleTreeSaplingBlock.java",
+          "src/main/resources/assets/community_collection/items/apple_tree_sapling.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/apple_tree_sapling.json",
+          "src/main/resources/assets/community_collection/models/item/apple_tree_sapling.json",
+          "src/main/resources/assets/community_collection/models/block/apple_tree_sapling.json",
+          "src/main/resources/assets/community_collection/blockstates/apple_tree_sapling.json"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Apple"
+    },
+    {
+      "name": "Blueberry",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/blueberry.json",
+          "src/main/resources/assets/community_collection/items/blueberry.json",
+          "src/main/java/net/mcreator/communitycollection/item/BlueberryItem.java"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Blueberry"
+    },
+    {
+      "name": "BlueberryBush",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_bush",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/blueberry_bush.json",
+          "src/main/resources/data/community_collection/neoforge/biome_modifier/blueberry_bush_biome_modifier.json",
+          "src/main/resources/assets/community_collection/models/block/blueberry_bush.json",
+          "src/main/java/net/mcreator/communitycollection/block/BlueberryBushBlock.java",
+          "src/main/resources/data/community_collection/worldgen/configured_feature/blueberry_bush.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/blueberry_bush.json",
+          "src/main/resources/data/community_collection/worldgen/placed_feature/blueberry_bush.json"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Blueberry"
+    },
+    {
+      "name": "GrownBlueberryBush",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grown_blueberry_bush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/block/GrownBlueberryBushBlock.java",
+          "src/main/resources/assets/community_collection/models/block/grown_blueberry_bush.json",
+          "src/main/resources/assets/community_collection/blockstates/grown_blueberry_bush.json"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Blueberry"
+    },
+    {
+      "name": "BlueberryBushOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_bush_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/BlueberryBushOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Blueberry"
+    },
+    {
+      "name": "GrownBlueberryBushLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grown_blueberry_bush_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/grown_blueberry_bush.json"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Blueberry"
+    },
+    {
+      "name": "BlueberryRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/BlueberryRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Blueberry"
+    },
+    {
+      "name": "BlueberryBushOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_bush_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/BlueberryBushOnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Blueberry"
+    },
+    {
+      "name": "BlueberryBushBoneMealSuccessCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_bush_bone_meal_success_condition",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/BlueberryBushBoneMealSuccessConditionProcedure.java"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Blueberry"
+    },
+    {
+      "name": "GrownBlueberryBushPlantRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grown_blueberry_bush_plant_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/GrownBlueberryBushPlantRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Fruit Trees and Bushes/Blueberry"
+    },
+    {
+      "name": "LeatherBackpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/item/LeatherBackpackItem.java",
+          "src/main/java/net/mcreator/communitycollection/item/inventory/LeatherBackpackInventoryCapability.java",
+          "src/main/resources/assets/community_collection/items/leather_backpack.json",
+          "src/main/resources/assets/community_collection/models/item/leather_backpack.json"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "LeatherBackpackGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_backpack_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/network/LeatherBackpackGUISlotMessage.java",
+          "src/main/java/net/mcreator/communitycollection/client/gui/LeatherBackpackGUIScreen.java",
+          "src/main/java/net/mcreator/communitycollection/world/inventory/LeatherBackpackGUIMenu.java"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "CopperBackpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/item/CopperBackpackItem.java",
+          "src/main/resources/assets/community_collection/models/item/copper_backpack.json",
+          "src/main/resources/assets/community_collection/items/copper_backpack.json",
+          "src/main/java/net/mcreator/communitycollection/item/inventory/CopperBackpackInventoryCapability.java"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "CopperBackpackGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_backpack_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/client/gui/CopperBackpackGUIScreen.java",
+          "src/main/java/net/mcreator/communitycollection/world/inventory/CopperBackpackGUIMenu.java"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "IronBackpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_backpack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/iron_backpack.json",
+          "src/main/java/net/mcreator/communitycollection/item/inventory/IronBackpackInventoryCapability.java",
+          "src/main/java/net/mcreator/communitycollection/item/IronBackpackItem.java",
+          "src/main/resources/assets/community_collection/items/iron_backpack.json"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "IronBackpackGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_backpack_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/client/gui/IronBackpackGUIScreen.java",
+          "src/main/java/net/mcreator/communitycollection/world/inventory/IronBackpackGUIMenu.java"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "GoldBackpackGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_backpack_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/world/inventory/GoldBackpackGUIMenu.java",
+          "src/main/java/net/mcreator/communitycollection/client/gui/GoldBackpackGUIScreen.java"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "GoldBackpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/item/inventory/GoldBackpackInventoryCapability.java",
+          "src/main/resources/assets/community_collection/models/item/gold_backpack.json",
+          "src/main/java/net/mcreator/communitycollection/item/GoldBackpackItem.java",
+          "src/main/resources/assets/community_collection/items/gold_backpack.json"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "DiamondBackpackGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_backpack_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/world/inventory/DiamondBackpackGUIMenu.java",
+          "src/main/java/net/mcreator/communitycollection/client/gui/DiamondBackpackGUIScreen.java"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "DiamondBackpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/item/inventory/DiamondBackpackInventoryCapability.java",
+          "src/main/resources/assets/community_collection/models/item/diamond_backpack.json",
+          "src/main/resources/assets/community_collection/items/diamond_backpack.json",
+          "src/main/java/net/mcreator/communitycollection/item/DiamondBackpackItem.java"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "NetheriteBackpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_backpack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/netherite_backpack.json",
+          "src/main/java/net/mcreator/communitycollection/item/NetheriteBackpackItem.java",
+          "src/main/resources/assets/community_collection/items/netherite_backpack.json",
+          "src/main/java/net/mcreator/communitycollection/item/inventory/NetheriteBackpackInventoryCapability.java"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "LeatherBackpackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_backpack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/leather_backpack_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/leather_backpack_recipe.json"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "CopperBackpackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_backpack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/copper_backpack_recipe.json",
+          "src/main/resources/data/community_collection/recipe/copper_backpack_recipe.json"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "IronBackpackRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_backpack_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/iron_backpack_recipe_1.json",
+          "src/main/resources/data/community_collection/advancement/recipes/iron_backpack_recipe_1.json"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "IronBackpackRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_backpack_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/iron_backpack_recipe_2.json",
+          "src/main/resources/data/community_collection/advancement/recipes/iron_backpack_recipe_2.json"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "GoldBackpackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_backpack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/gold_backpack_recipe.json",
+          "src/main/resources/data/community_collection/recipe/gold_backpack_recipe.json"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "DiamondBackpackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_backpack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/diamond_backpack_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/diamond_backpack_recipe.json"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "NetheriteBackpackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_backpack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/netherite_backpack_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/netherite_backpack_recipe.json"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "NetheriteBackpackGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_backpack_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/world/inventory/NetheriteBackpackGUIMenu.java",
+          "src/main/java/net/mcreator/communitycollection/client/gui/NetheriteBackpackGUIScreen.java"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "TransferInventoryOnUpgrade",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "transfer_inventory_on_upgrade",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/TransferInventoryOnUpgradeProcedure.java"
+        ]
+      },
+      "path": "~/Backpacks"
+    },
+    {
+      "name": "PalmLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/palm_log.json",
+          "src/main/resources/assets/community_collection/models/block/palm_log.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmLogBlock.java",
+          "src/main/resources/assets/community_collection/models/item/palm_log.json",
+          "src/main/resources/assets/community_collection/items/palm_log.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_log.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_wood.json",
+          "src/main/resources/assets/community_collection/models/block/palm_wood.json",
+          "src/main/resources/assets/community_collection/models/item/palm_wood.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmWoodBlock.java",
+          "src/main/resources/assets/community_collection/items/palm_wood.json",
+          "src/main/resources/assets/community_collection/blockstates/palm_wood.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "StrippedPalmLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_palm_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/stripped_palm_log.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/stripped_palm_log.json",
+          "src/main/resources/assets/community_collection/models/block/stripped_palm_log.json",
+          "src/main/resources/assets/community_collection/models/item/stripped_palm_log.json",
+          "src/main/resources/assets/community_collection/items/stripped_palm_log.json",
+          "src/main/java/net/mcreator/communitycollection/block/StrippedPalmLogBlock.java"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "StrippedPalmWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_palm_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/stripped_palm_wood.json",
+          "src/main/resources/assets/community_collection/blockstates/stripped_palm_wood.json",
+          "src/main/java/net/mcreator/communitycollection/block/StrippedPalmWoodBlock.java",
+          "src/main/resources/assets/community_collection/models/item/stripped_palm_wood.json",
+          "src/main/resources/assets/community_collection/items/stripped_palm_wood.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/stripped_palm_wood.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/palm_planks.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_planks.json",
+          "src/main/resources/assets/community_collection/items/palm_planks.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmPlanksBlock.java",
+          "src/main/resources/assets/community_collection/blockstates/palm_planks.json",
+          "src/main/resources/assets/community_collection/models/block/palm_planks.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/palm_leaves.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmLeavesBlock.java",
+          "src/main/resources/assets/community_collection/items/palm_leaves.json",
+          "src/main/resources/assets/community_collection/models/item/palm_leaves.json",
+          "src/main/resources/assets/community_collection/models/block/palm_leaves.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/palm_stairs.json",
+          "src/main/resources/assets/community_collection/blockstates/palm_stairs.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/palm_stairs_inner.json",
+          "src/main/resources/assets/community_collection/models/block/palm_stairs_outer.json",
+          "src/main/resources/assets/community_collection/models/item/palm_stairs.json",
+          "src/main/resources/assets/community_collection/items/palm_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmStairsBlock.java"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/palm_slab_full.json",
+          "src/main/resources/assets/community_collection/models/block/palm_slab_top.json",
+          "src/main/resources/assets/community_collection/blockstates/palm_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmSlabBlock.java",
+          "src/main/resources/assets/community_collection/items/palm_slab.json",
+          "src/main/resources/assets/community_collection/models/block/palm_slab.json",
+          "src/main/resources/assets/community_collection/models/item/palm_slab.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_slab.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/palm_fence_post.json",
+          "src/main/resources/assets/community_collection/items/palm_fence.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmFenceBlock.java",
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_fence.json",
+          "src/main/resources/assets/community_collection/blockstates/palm_fence.json",
+          "src/main/resources/assets/community_collection/models/item/palm_fence.json",
+          "src/main/resources/assets/community_collection/models/block/palm_fence_inventory.json",
+          "src/main/resources/assets/community_collection/models/block/palm_fence.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/items/palm_fence_gate.json",
+          "src/main/resources/assets/community_collection/blockstates/palm_fence_gate.json",
+          "src/main/resources/assets/community_collection/models/block/palm_fence_gate.json",
+          "src/main/resources/assets/community_collection/models/block/palm_fence_gate_wall.json",
+          "src/main/resources/assets/community_collection/models/item/palm_fence_gate.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmFenceGateBlock.java",
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_fence_gate.json",
+          "src/main/resources/assets/community_collection/models/block/palm_fence_gate_open.json",
+          "src/main/resources/assets/community_collection/models/block/palm_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_door",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/block/PalmDoorBlock.java",
+          "src/main/resources/assets/community_collection/models/block/palm_door_top_left_open.json",
+          "src/main/resources/assets/community_collection/models/item/palm_door.json",
+          "src/main/resources/assets/community_collection/models/block/palm_door_bottom_left_open.json",
+          "src/main/resources/assets/community_collection/models/block/palm_door_top_left.json",
+          "src/main/resources/assets/community_collection/models/block/palm_door_bottom_left.json",
+          "src/main/resources/assets/community_collection/items/palm_door.json",
+          "src/main/resources/assets/community_collection/models/block/palm_door_bottom_right_open.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_door.json",
+          "src/main/resources/assets/community_collection/models/block/palm_door_top_right_open.json",
+          "src/main/resources/assets/community_collection/models/block/palm_door_top_right.json",
+          "src/main/resources/assets/community_collection/blockstates/palm_door.json",
+          "src/main/resources/assets/community_collection/models/block/palm_door_bottom_right.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/items/palm_trapdoor.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_trapdoor.json",
+          "src/main/resources/assets/community_collection/models/block/palm_trapdoor_open.json",
+          "src/main/resources/assets/community_collection/models/block/palm_trapdoor.json",
+          "src/main/resources/assets/community_collection/models/block/palm_trapdoor_top.json",
+          "src/main/resources/assets/community_collection/blockstates/palm_trapdoor.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmTrapdoorBlock.java",
+          "src/main/resources/assets/community_collection/models/item/palm_trapdoor.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/palm_pressure_plate.json",
+          "src/main/resources/assets/community_collection/blockstates/palm_pressure_plate.json",
+          "src/main/resources/assets/community_collection/models/block/palm_pressure_plate_down.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_pressure_plate.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmPressurePlateBlock.java",
+          "src/main/resources/assets/community_collection/items/palm_pressure_plate.json",
+          "src/main/resources/assets/community_collection/models/item/palm_pressure_plate.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_button.json",
+          "src/main/resources/assets/community_collection/models/item/palm_button.json",
+          "src/main/resources/assets/community_collection/items/palm_button.json",
+          "src/main/resources/assets/community_collection/models/block/palm_button_pressed.json",
+          "src/main/resources/assets/community_collection/models/block/palm_button.json",
+          "src/main/resources/assets/community_collection/models/block/palm_button_inventory.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmButtonBlock.java",
+          "src/main/resources/assets/community_collection/blockstates/palm_button.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/palm_wood_recipe.json",
+          "src/main/resources/data/community_collection/recipe/palm_wood_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "StrippedPalmWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_palm_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/stripped_palm_wood_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/stripped_palm_wood_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/palm_planks_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/palm_planks_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/palm_stairs_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/palm_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/palm_slab_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/palm_slab_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/palm_fence_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/palm_fence_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/palm_fence_gate_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/palm_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/palm_door_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/palm_door_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/palm_trapdoor_recipe.json",
+          "src/main/resources/data/community_collection/recipe/palm_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/palm_pressure_plate_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/palm_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/palm_button_recipe.json",
+          "src/main/resources/data/community_collection/recipe/palm_button_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/neoforge/biome_modifier/palm_tree_biome_modifier.json",
+          "src/main/resources/data/community_collection/worldgen/placed_feature/palm_tree.json",
+          "src/main/resources/data/community_collection/worldgen/configured_feature/palm_tree.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmFrondsLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_fronds_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_leaves.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "PalmTreeSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_tree_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/palm_tree_sapling.json",
+          "src/main/java/net/mcreator/communitycollection/block/PalmTreeSaplingBlock.java",
+          "src/main/resources/assets/community_collection/items/palm_tree_sapling.json",
+          "src/main/resources/assets/community_collection/models/item/palm_tree_sapling.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/palm_tree_sapling.json",
+          "src/main/resources/assets/community_collection/blockstates/palm_tree_sapling.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/items/coconut_item.json",
+          "src/main/resources/assets/community_collection/models/item/coconut_item.json",
+          "src/main/java/net/mcreator/communitycollection/item/CoconutItemItem.java"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/entity/CoconutProjectileEntity.java"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutPiece",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_piece",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/items/coconut_piece.json",
+          "src/main/java/net/mcreator/communitycollection/item/CoconutPieceItem.java",
+          "src/main/resources/assets/community_collection/models/item/coconut_piece.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutMilk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_milk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/items/coconut_milk.json",
+          "src/main/resources/assets/community_collection/models/item/coconut_milk.json",
+          "src/main/java/net/mcreator/communitycollection/item/CoconutMilkItem.java"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutMilkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_milk_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/coconut_milk_recipe.json",
+          "src/main/resources/data/community_collection/recipe/coconut_milk_recipe.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/coconut_block.json",
+          "src/main/java/net/mcreator/communitycollection/block/CoconutBlockBlock.java",
+          "src/main/resources/assets/community_collection/blockstates/coconut_block.json",
+          "src/main/resources/assets/community_collection/items/coconut_block.json",
+          "src/main/resources/assets/community_collection/models/block/coconut_block.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutBlockNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_block_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/CoconutBlockNeighbourBlockChangesProcedure.java"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutBlockOnBlockHitByProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_block_on_block_hit_by_projectile",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/CoconutBlockOnBlockHitByProjectileProcedure.java"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutBlockLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_block_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/coconut_block.json"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutProjectileProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_projectile_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/CoconutProjectileProjectileHitsBlockProcedure.java"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "CoconutMilkPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_milk_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/CoconutMilkPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Palm Trees"
+    },
+    {
+      "name": "IceCave",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/worldgen/biome/ice_cave.json"
+        ]
+      },
+      "path": "~/Ice Caves"
+    },
+    {
+      "name": "IcicleEntityFallsOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icicle_entity_falls_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "distance",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/IcicleEntityFallsOnTheBlockProcedure.java"
+        ]
+      },
+      "path": "~/Ice Caves"
+    },
+    {
+      "name": "Icicle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icicle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/icicle.json",
+          "src/main/java/net/mcreator/communitycollection/block/IcicleBlock.java",
+          "src/main/resources/data/community_collection/loot_table/blocks/icicle.json",
+          "src/main/resources/assets/community_collection/items/icicle.json",
+          "src/main/resources/assets/community_collection/models/block/icicle.json",
+          "src/main/resources/assets/community_collection/blockstates/icicle.json"
+        ]
+      },
+      "path": "~/Ice Caves"
+    },
+    {
+      "name": "IcicleProjectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icicle_projectile_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/IcicleProjectileProjectileHitsLivingEntityProcedure.java"
+        ]
+      },
+      "path": "~/Ice Caves"
+    },
+    {
+      "name": "IcicleProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icicle_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/entity/IcicleProjectileEntity.java"
+        ]
+      },
+      "path": "~/Ice Caves"
+    },
+    {
+      "name": "IcicleOnBlockHitByProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icicle_on_block_hit_by_projectile",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/IcicleOnBlockHitByProjectileProcedure.java"
+        ]
+      },
+      "path": "~/Ice Caves"
+    },
+    {
+      "name": "IcicleOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icicle_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/IcicleOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Ice Caves"
+    },
+    {
+      "name": "IcicleOnRoof",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icicle_on_roof",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/worldgen/configured_feature/icicle_on_roof.json",
+          "src/main/resources/data/community_collection/neoforge/biome_modifier/icicle_on_roof_biome_modifier.json",
+          "src/main/resources/data/community_collection/worldgen/placed_feature/icicle_on_roof.json"
+        ]
+      },
+      "path": "~/Ice Caves"
+    },
+    {
+      "name": "Permafrost",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "permafrost",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/permafrost.json",
+          "src/main/java/net/mcreator/communitycollection/block/PermafrostBlock.java",
+          "src/main/resources/assets/community_collection/items/permafrost.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/permafrost.json",
+          "src/main/resources/assets/community_collection/models/block/permafrost.json",
+          "src/main/resources/assets/community_collection/blockstates/permafrost.json"
+        ]
+      },
+      "path": "~/Ice Caves"
+    },
+    {
+      "name": "CaveIceSpike",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_ice_spike",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/worldgen/configured_feature/cave_ice_spike.json",
+          "src/main/resources/data/community_collection/neoforge/biome_modifier/cave_ice_spike_biome_modifier.json",
+          "src/main/resources/data/community_collection/worldgen/placed_feature/cave_ice_spike.json"
+        ]
+      },
+      "path": "~/Ice Caves"
+    },
+    {
+      "name": "FeatherFallingDontTrample",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feather_falling_dont_trample",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/FeatherFallingDontTrampleProcedure.java"
+        ]
+      },
+      "path": "~/General Enhancements"
+    },
+    {
+      "name": "RabbitBoots",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/client/renderer/item/RabbitBootsArmor.java",
+          "src/main/java/net/mcreator/communitycollection/item/RabbitBootsItem.java",
+          "src/main/resources/assets/community_collection/items/rabbit_boots_boots.json",
+          "src/main/resources/assets/community_collection/equipment/rabbit_boots.json",
+          "src/main/resources/assets/community_collection/models/item/rabbit_boots_boots.json",
+          "src/main/resources/assets/community_collection/items/rabbit_boots_helmet.json",
+          "src/main/resources/assets/community_collection/items/rabbit_boots_leggings.json",
+          "src/main/resources/assets/community_collection/items/rabbit_boots_chestplate.json"
+        ]
+      },
+      "path": "~/Rabbit Jump"
+    },
+    {
+      "name": "DoubleJump",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_jump",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/DoubleJumpProcedure.java"
+        ]
+      },
+      "path": "~/Rabbit Jump"
+    },
+    {
+      "name": "RabbitBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/rabbit_boots_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/rabbit_boots_recipe.json"
+        ]
+      },
+      "path": "~/Rabbit Jump"
+    },
+    {
+      "name": "Capybara",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capybara",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/entity/CapybaraEntity.java",
+          "src/main/resources/data/community_collection/neoforge/biome_modifier/capybara_biome_modifier.json",
+          "src/main/resources/assets/community_collection/items/capybara_spawn_egg.json",
+          "src/main/resources/assets/community_collection/models/item/capybara_spawn_egg.json",
+          "src/main/java/net/mcreator/communitycollection/client/renderer/CapybaraRenderer.java"
+        ]
+      },
+      "path": "~/Capybara"
+    },
+    {
+      "name": "CapybaraInWater",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capybara_in_water",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/CapybaraInWaterProcedure.java"
+        ]
+      },
+      "path": "~/Capybara"
+    },
+    {
+      "name": "CapybaraOutsideWater",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capybara_outside_water",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/CapybaraOutsideWaterProcedure.java"
+        ]
+      },
+      "path": "~/Capybara"
+    },
+    {
+      "name": "CapybaraOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capybara_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/CapybaraOnInitialEntitySpawnProcedure.java"
+        ]
+      },
+      "path": "~/Capybara"
+    },
+    {
+      "name": "Revealing",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revealing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/enchantment/revealing.json"
+        ]
+      },
+      "path": "~/Revealing"
+    },
+    {
+      "name": "RevealingProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revealing_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/RevealingProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Revealing"
+    },
+    {
+      "name": "SpyglassFix",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spyglass_fix",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/SpyglassFixProcedure.java"
+        ]
+      },
+      "path": "~/Revealing"
+    },
+    {
+      "name": "WhiteConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/items/white_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/white_concrete_stairs_inner.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/white_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/blockstates/white_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/white_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/white_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/WhiteConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/models/block/white_concrete_stairs_outer.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "WhiteConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/white_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/item/white_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/white_concrete_slab_full.json",
+          "src/main/resources/assets/community_collection/items/white_concrete_slab.json",
+          "src/main/resources/assets/community_collection/blockstates/white_concrete_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/WhiteConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/models/block/white_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/models/block/white_concrete_slab.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "OrangeConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/orange_concrete_stairs_outer.json",
+          "src/main/resources/assets/community_collection/blockstates/orange_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/orange_concrete_stairs.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/orange_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/OrangeConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/items/orange_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/orange_concrete_stairs_inner.json",
+          "src/main/resources/assets/community_collection/models/item/orange_concrete_stairs.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "OrangeConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/orange_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/orange_concrete_slab.json",
+          "src/main/resources/assets/community_collection/blockstates/orange_concrete_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/OrangeConcreteSlabBlock.java",
+          "src/main/resources/data/community_collection/loot_table/blocks/orange_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/orange_concrete_slab_full.json",
+          "src/main/resources/assets/community_collection/models/block/orange_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/items/orange_concrete_slab.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "MagentaConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/magenta_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/magenta_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/magenta_concrete_stairs_outer.json",
+          "src/main/java/net/mcreator/communitycollection/block/MagentaConcreteStairsBlock.java",
+          "src/main/resources/data/community_collection/loot_table/blocks/magenta_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/items/magenta_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/magenta_concrete_stairs_inner.json",
+          "src/main/resources/assets/community_collection/blockstates/magenta_concrete_stairs.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "MagentaConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/magenta_concrete_slab.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/magenta_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/item/magenta_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/magenta_concrete_slab_full.json",
+          "src/main/java/net/mcreator/communitycollection/block/MagentaConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/items/magenta_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/magenta_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/models/block/magenta_concrete_slab.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LightBlueConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/light_blue_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/blockstates/light_blue_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/light_blue_concrete_stairs_outer.json",
+          "src/main/resources/assets/community_collection/models/block/light_blue_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/items/light_blue_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/LightBlueConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/models/block/light_blue_concrete_stairs_inner.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/light_blue_concrete_stairs.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LightBlueConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/light_blue_concrete_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/LightBlueConcreteSlabBlock.java",
+          "src/main/resources/data/community_collection/loot_table/blocks/light_blue_concrete_slab.json",
+          "src/main/resources/assets/community_collection/items/light_blue_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/light_blue_concrete_slab_full.json",
+          "src/main/resources/assets/community_collection/models/block/light_blue_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/models/item/light_blue_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/light_blue_concrete_slab.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "YellowConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/yellow_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/items/yellow_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/yellow_concrete_stairs.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/yellow_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/yellow_concrete_stairs_outer.json",
+          "src/main/resources/assets/community_collection/blockstates/yellow_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/YellowConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/models/block/yellow_concrete_stairs_inner.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "YellowConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/block/YellowConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/items/yellow_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/yellow_concrete_slab.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/yellow_concrete_slab.json",
+          "src/main/resources/assets/community_collection/blockstates/yellow_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/item/yellow_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/yellow_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/models/block/yellow_concrete_slab_full.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LimeConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/lime_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/lime_concrete_stairs_inner.json",
+          "src/main/resources/assets/community_collection/items/lime_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/lime_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/LimeConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/blockstates/lime_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/lime_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/lime_concrete_stairs_outer.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LimeConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/lime_concrete_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/LimeConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/models/block/lime_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/items/lime_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/lime_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/lime_concrete_slab_full.json",
+          "src/main/resources/assets/community_collection/blockstates/lime_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/item/lime_concrete_slab.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "PinkConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/block/PinkConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/blockstates/pink_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/pink_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/pink_concrete_stairs_outer.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/pink_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/pink_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/pink_concrete_stairs_inner.json",
+          "src/main/resources/assets/community_collection/items/pink_concrete_stairs.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "PinkConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/pink_concrete_slab_top.json",
+          "src/main/java/net/mcreator/communitycollection/block/PinkConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/models/item/pink_concrete_slab.json",
+          "src/main/resources/assets/community_collection/blockstates/pink_concrete_slab.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/pink_concrete_slab.json",
+          "src/main/resources/assets/community_collection/items/pink_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/pink_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/pink_concrete_slab_full.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "GrayConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/gray_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/GrayConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/items/gray_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/blockstates/gray_concrete_stairs.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/gray_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/gray_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/gray_concrete_stairs_inner.json",
+          "src/main/resources/assets/community_collection/models/block/gray_concrete_stairs_outer.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "GrayConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/items/gray_concrete_slab.json",
+          "src/main/resources/assets/community_collection/blockstates/gray_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/item/gray_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/gray_concrete_slab_full.json",
+          "src/main/resources/assets/community_collection/models/block/gray_concrete_slab.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/gray_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/gray_concrete_slab_top.json",
+          "src/main/java/net/mcreator/communitycollection/block/GrayConcreteSlabBlock.java"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LightGrayConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/light_gray_concrete_stairs_outer.json",
+          "src/main/resources/assets/community_collection/models/item/light_gray_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/blockstates/light_gray_concrete_stairs.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/light_gray_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/light_gray_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/light_gray_concrete_stairs_inner.json",
+          "src/main/java/net/mcreator/communitycollection/block/LightGrayConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/items/light_gray_concrete_stairs.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LightGrayConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/light_gray_concrete_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/LightGrayConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/models/block/light_gray_concrete_slab_full.json",
+          "src/main/resources/assets/community_collection/blockstates/light_gray_concrete_slab.json",
+          "src/main/resources/assets/community_collection/items/light_gray_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/item/light_gray_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/light_gray_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/light_gray_concrete_slab_top.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "CyanConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/cyan_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/CyanConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/models/block/cyan_concrete_stairs.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/cyan_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/cyan_concrete_stairs_outer.json",
+          "src/main/resources/assets/community_collection/models/item/cyan_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/items/cyan_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/cyan_concrete_stairs_inner.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "CyanConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/block/CyanConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/blockstates/cyan_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/cyan_concrete_slab_full.json",
+          "src/main/resources/assets/community_collection/models/item/cyan_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/cyan_concrete_slab.json",
+          "src/main/resources/assets/community_collection/items/cyan_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/cyan_concrete_slab_top.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/cyan_concrete_slab.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "PurpleConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/purple_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/purple_concrete_stairs_inner.json",
+          "src/main/resources/assets/community_collection/items/purple_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/purple_concrete_stairs.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/purple_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/blockstates/purple_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/purple_concrete_stairs_outer.json",
+          "src/main/java/net/mcreator/communitycollection/block/PurpleConcreteStairsBlock.java"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "PurpleConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/purple_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/purple_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/items/purple_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/purple_concrete_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/PurpleConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/models/item/purple_concrete_slab.json",
+          "src/main/resources/assets/community_collection/blockstates/purple_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/purple_concrete_slab_full.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BlueConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/blue_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/BlueConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/models/block/blue_concrete_stairs_outer.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/blue_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/blue_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/items/blue_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/blue_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/blue_concrete_stairs_inner.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BlueConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/blue_concrete_slab.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/blue_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/blue_concrete_slab_full.json",
+          "src/main/java/net/mcreator/communitycollection/block/BlueConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/models/block/blue_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/items/blue_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/blue_concrete_slab.json",
+          "src/main/resources/assets/community_collection/blockstates/blue_concrete_slab.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BrownConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/items/brown_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/brown_concrete_stairs.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/brown_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/brown_concrete_stairs_outer.json",
+          "src/main/resources/assets/community_collection/blockstates/brown_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/BrownConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/models/block/brown_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/brown_concrete_stairs_inner.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BrownConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/block/brown_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/models/block/brown_concrete_slab_full.json",
+          "src/main/resources/assets/community_collection/items/brown_concrete_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/BrownConcreteSlabBlock.java",
+          "src/main/resources/data/community_collection/loot_table/blocks/brown_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/item/brown_concrete_slab.json",
+          "src/main/resources/assets/community_collection/blockstates/brown_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/brown_concrete_slab.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "GreenConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/block/GreenConcreteStairsBlock.java",
+          "src/main/resources/assets/community_collection/models/block/green_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/blockstates/green_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/green_concrete_stairs_outer.json",
+          "src/main/resources/assets/community_collection/models/block/green_concrete_stairs_inner.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/green_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/items/green_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/green_concrete_stairs.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "GreenConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/loot_table/blocks/green_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/item/green_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/green_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/models/block/green_concrete_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/GreenConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/items/green_concrete_slab.json",
+          "src/main/resources/assets/community_collection/blockstates/green_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/green_concrete_slab_full.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "RedConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/items/red_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/red_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/red_concrete_stairs_inner.json",
+          "src/main/resources/assets/community_collection/models/block/red_concrete_stairs_outer.json",
+          "src/main/resources/assets/community_collection/blockstates/red_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/red_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/RedConcreteStairsBlock.java",
+          "src/main/resources/data/community_collection/loot_table/blocks/red_concrete_stairs.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "RedConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/red_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/item/red_concrete_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/RedConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/models/block/red_concrete_slab_full.json",
+          "src/main/resources/assets/community_collection/models/block/red_concrete_slab_top.json",
+          "src/main/resources/assets/community_collection/models/block/red_concrete_slab.json",
+          "src/main/resources/assets/community_collection/items/red_concrete_slab.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/red_concrete_slab.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BlackConcreteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_concrete_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/items/black_concrete_stairs.json",
+          "src/main/java/net/mcreator/communitycollection/block/BlackConcreteStairsBlock.java",
+          "src/main/resources/data/community_collection/loot_table/blocks/black_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/item/black_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/black_concrete_stairs_outer.json",
+          "src/main/resources/assets/community_collection/models/block/black_concrete_stairs_inner.json",
+          "src/main/resources/assets/community_collection/blockstates/black_concrete_stairs.json",
+          "src/main/resources/assets/community_collection/models/block/black_concrete_stairs.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BlackConcreteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_concrete_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/black_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/black_concrete_slab.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/black_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/item/black_concrete_slab.json",
+          "src/main/resources/assets/community_collection/models/block/black_concrete_slab_full.json",
+          "src/main/resources/assets/community_collection/items/black_concrete_slab.json",
+          "src/main/java/net/mcreator/communitycollection/block/BlackConcreteSlabBlock.java",
+          "src/main/resources/assets/community_collection/models/block/black_concrete_slab_top.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "WhiteConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/white_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/white_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "OrangeConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/orange_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/orange_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "MagentaConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/magenta_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/magenta_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LightBlueConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/light_blue_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/light_blue_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "YellowConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/yellow_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/recipe/yellow_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LimeConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/lime_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/recipe/lime_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "PinkConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/pink_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/pink_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "GrayConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/gray_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/recipe/gray_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LightGrayConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/light_gray_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/light_gray_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "CyanConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/cyan_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/recipe/cyan_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "PurpleConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/purple_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/purple_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BlueConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/blue_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/recipe/blue_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BrownConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/brown_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/brown_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "GreenConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/green_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/recipe/green_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "RedConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/red_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/recipe/red_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BlackConcreteStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_concrete_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/black_concrete_stairs_recipe.json",
+          "src/main/resources/data/community_collection/recipe/black_concrete_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "WhiteConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/white_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/white_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "OrangeConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/orange_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/orange_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "MagentaConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/magenta_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/magenta_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LightBlueConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/light_blue_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/recipe/light_blue_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "YellowConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/yellow_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/recipe/yellow_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LimeConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/lime_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/recipe/lime_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "PinkConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/pink_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/pink_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "GrayConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/gray_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/gray_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "LightGrayConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/light_gray_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/light_gray_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "CyanConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/cyan_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/recipe/cyan_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "PurpleConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/purple_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/recipe/purple_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BlueConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/blue_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/recipe/blue_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BrownConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/brown_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/recipe/brown_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "GreenConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/recipe/green_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/advancement/recipes/green_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "RedConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/red_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/recipe/red_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "BlackConcreteSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_concrete_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/black_concrete_slab_recipe.json",
+          "src/main/resources/data/community_collection/recipe/black_concrete_slab_recipe.json"
+        ]
+      },
+      "path": "~/Concrete"
+    },
+    {
+      "name": "Jellyfish",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jellyfish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/client/renderer/JellyfishRenderer.java",
+          "src/main/resources/assets/community_collection/items/jellyfish_spawn_egg.json",
+          "src/main/resources/assets/community_collection/models/item/jellyfish_spawn_egg.json",
+          "src/main/java/net/mcreator/communitycollection/entity/JellyfishEntity.java",
+          "src/main/resources/data/community_collection/neoforge/biome_modifier/jellyfish_biome_modifier.json"
+        ]
+      },
+      "path": "~/Jellyfish"
+    },
+    {
+      "name": "JellyfishPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jellyfish_playback_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/JellyfishPlaybackConditionProcedure.java"
+        ]
+      },
+      "path": "~/Jellyfish"
+    },
+    {
+      "name": "JellyfishEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jellyfish_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/JellyfishEntityIsHurtProcedure.java"
+        ]
+      },
+      "path": "~/Jellyfish"
+    },
+    {
+      "name": "JellyfishOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jellyfish_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/JellyfishOnInitialEntitySpawnProcedure.java"
+        ]
+      },
+      "path": "~/Jellyfish"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "equipped_backpack",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:PalmLeaves",
+      "~CUSTOM:OakAppleLeaves"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:PalmLeaves",
+      "~CUSTOM:OakAppleLeaves"
+    ],
+    "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:PalmTreeSapling",
+      "~CUSTOM:AppleTreeSapling"
+    ],
+    "BLOCKS:minecraft:sword_efficient": [
+      "CUSTOM:OakAppleLeaves"
+    ],
+    "ITEMS:mod:backpack": [
+      "CUSTOM:LeatherBackpack",
+      "CUSTOM:CopperBackpack",
+      "CUSTOM:IronBackpack",
+      "CUSTOM:GoldBackpack",
+      "CUSTOM:DiamondBackpack",
+      "CUSTOM:NetheriteBackpack"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:PalmButton",
+      "~CUSTOM:PalmPressurePlate",
+      "~CUSTOM:PalmTrapdoor",
+      "~CUSTOM:PalmDoor",
+      "~CUSTOM:PalmFenceGate",
+      "~CUSTOM:PalmFence",
+      "~CUSTOM:PalmSlab",
+      "~CUSTOM:PalmStairs",
+      "~CUSTOM:PalmPlanks",
+      "~CUSTOM:StrippedPalmWood",
+      "~CUSTOM:StrippedPalmLog",
+      "~CUSTOM:PalmWood",
+      "~CUSTOM:PalmLog"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:BlackConcreteStairs",
+      "~CUSTOM:RedConcreteStairs",
+      "~CUSTOM:GreenConcreteStairs",
+      "~CUSTOM:BrownConcreteStairs",
+      "~CUSTOM:BlueConcreteStairs",
+      "~CUSTOM:PurpleConcreteStairs",
+      "~CUSTOM:CyanConcreteStairs",
+      "~CUSTOM:LightGrayConcreteStairs",
+      "~CUSTOM:GrayConcreteStairs",
+      "~CUSTOM:PinkConcreteStairs",
+      "~CUSTOM:LimeConcreteStairs",
+      "~CUSTOM:YellowConcreteStairs",
+      "~CUSTOM:LightBlueConcreteStairs",
+      "~CUSTOM:MagentaConcreteStairs",
+      "~CUSTOM:OrangeConcreteStairs",
+      "~CUSTOM:WhiteConcreteStairs",
+      "~CUSTOM:PalmStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:BlackConcreteSlab",
+      "~CUSTOM:RedConcreteSlab",
+      "~CUSTOM:GreenConcreteSlab",
+      "~CUSTOM:BrownConcreteSlab",
+      "~CUSTOM:BlueConcreteSlab",
+      "~CUSTOM:PurpleConcreteSlab",
+      "~CUSTOM:CyanConcreteSlab",
+      "~CUSTOM:LightGrayConcreteSlab",
+      "~CUSTOM:GrayConcreteSlab",
+      "~CUSTOM:PinkConcreteSlab",
+      "~CUSTOM:LimeConcreteSlab",
+      "~CUSTOM:YellowConcreteSlab",
+      "~CUSTOM:LightBlueConcreteSlab",
+      "~CUSTOM:MagentaConcreteSlab",
+      "~CUSTOM:OrangeConcreteSlab",
+      "~CUSTOM:WhiteConcreteSlab",
+      "~CUSTOM:PalmSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:PalmFence"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:PalmDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:PalmTrapdoor"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:PalmPressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:PalmButton"
+    ],
+    "BLOCKS:mod:palm_logs": [
+      "CUSTOM:PalmLog",
+      "CUSTOM:PalmWood",
+      "CUSTOM:StrippedPalmLog",
+      "CUSTOM:StrippedPalmWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:palm_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:PalmPlanks"
+    ],
+    "ITEMS:mod:palm_logs": [
+      "CUSTOM:PalmLog",
+      "CUSTOM:PalmWood",
+      "CUSTOM:StrippedPalmLog",
+      "CUSTOM:StrippedPalmWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:palm_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:PalmPlanks"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "TAG:mod:palm_logs"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "CUSTOM:PalmFence",
+      "CUSTOM:PalmFenceGate"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "CUSTOM:GoldBackpack"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:IceCave"
+    ],
+    "BIOMES:minecraft:has_closer_water_fog": [
+      "CUSTOM:IceCave"
+    ],
+    "BIOMES:minecraft:increased_fire_burnout": [
+      "CUSTOM:IceCave"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BlackConcreteSlab",
+      "~CUSTOM:BlackConcreteStairs",
+      "~CUSTOM:RedConcreteSlab",
+      "~CUSTOM:RedConcreteStairs",
+      "~CUSTOM:GreenConcreteSlab",
+      "~CUSTOM:GreenConcreteStairs",
+      "~CUSTOM:BrownConcreteSlab",
+      "~CUSTOM:BrownConcreteStairs",
+      "~CUSTOM:BlueConcreteSlab",
+      "~CUSTOM:BlueConcreteStairs",
+      "~CUSTOM:PurpleConcreteSlab",
+      "~CUSTOM:PurpleConcreteStairs",
+      "~CUSTOM:CyanConcreteSlab",
+      "~CUSTOM:CyanConcreteStairs",
+      "~CUSTOM:LightGrayConcreteSlab",
+      "~CUSTOM:LightGrayConcreteStairs",
+      "~CUSTOM:GrayConcreteSlab",
+      "~CUSTOM:GrayConcreteStairs",
+      "~CUSTOM:PinkConcreteSlab",
+      "~CUSTOM:PinkConcreteStairs",
+      "~CUSTOM:LimeConcreteSlab",
+      "~CUSTOM:LimeConcreteStairs",
+      "~CUSTOM:YellowConcreteSlab",
+      "~CUSTOM:YellowConcreteStairs",
+      "~CUSTOM:LightBlueConcreteSlab",
+      "~CUSTOM:LightBlueConcreteStairs",
+      "~CUSTOM:MagentaConcreteSlab",
+      "~CUSTOM:MagentaConcreteStairs",
+      "~CUSTOM:OrangeConcreteSlab",
+      "~CUSTOM:OrangeConcreteStairs",
+      "~CUSTOM:WhiteConcreteSlab",
+      "~CUSTOM:WhiteConcreteStairs",
+      "~CUSTOM:Icicle"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Permafrost"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:Permafrost"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:RabbitBoots.boots"
+    ],
+    "ITEMS:community_collection:rabbit_boots_repair_items": [
+      "~Items.RABBIT_FOOT"
+    ],
+    "ITEMS:minecraft:enchantable/spyglass": [
+      "TAG:minecraft:spyglass"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "TAG:minecraft:spyglass"
+    ],
+    "ITEMS:minecraft:enchantable/vanishing": [
+      "TAG:minecraft:spyglass"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:Revealing"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:Revealing"
+    ],
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:Revealing"
+    ],
+    "ITEMS:minecraft:spyglass": [
+      "Items.SPYGLASS"
+    ],
+    "BLOCKS:minecraft:concrete": [
+      "Blocks.CONCRETE#0",
+      "Blocks.CONCRETE#1",
+      "Blocks.CONCRETE#2",
+      "Blocks.CONCRETE#3",
+      "Blocks.CONCRETE#4",
+      "Blocks.CONCRETE#5",
+      "Blocks.CONCRETE#6",
+      "Blocks.CONCRETE#7",
+      "Blocks.CONCRETE#8",
+      "Blocks.CONCRETE#9",
+      "Blocks.CONCRETE#10",
+      "Blocks.CONCRETE#11",
+      "Blocks.CONCRETE#12",
+      "Blocks.CONCRETE#13",
+      "Blocks.CONCRETE#14",
+      "Blocks.CONCRETE#15"
+    ],
+    "BLOCKS:minecraft:concrete_stairs": [
+      "CUSTOM:WhiteConcreteStairs",
+      "CUSTOM:OrangeConcreteStairs",
+      "CUSTOM:MagentaConcreteStairs",
+      "CUSTOM:LightBlueConcreteStairs",
+      "CUSTOM:YellowConcreteStairs",
+      "CUSTOM:LimeConcreteStairs",
+      "CUSTOM:PinkConcreteStairs",
+      "CUSTOM:GrayConcreteStairs",
+      "CUSTOM:LightGrayConcreteStairs",
+      "CUSTOM:CyanConcreteStairs",
+      "CUSTOM:PurpleConcreteStairs",
+      "CUSTOM:BlueConcreteStairs",
+      "CUSTOM:BrownConcreteStairs",
+      "CUSTOM:GreenConcreteStairs",
+      "CUSTOM:RedConcreteStairs",
+      "CUSTOM:BlackConcreteStairs"
+    ],
+    "BLOCKS:minecraft:concrete_slab": [
+      "CUSTOM:WhiteConcreteSlab",
+      "CUSTOM:OrangeConcreteSlab",
+      "CUSTOM:MagentaConcreteSlab",
+      "CUSTOM:LightBlueConcreteSlab",
+      "CUSTOM:YellowConcreteSlab",
+      "CUSTOM:LimeConcreteSlab",
+      "CUSTOM:PinkConcreteSlab",
+      "CUSTOM:GrayConcreteSlab",
+      "CUSTOM:LightGrayConcreteSlab",
+      "CUSTOM:CyanConcreteSlab",
+      "CUSTOM:PurpleConcreteSlab",
+      "CUSTOM:BlueConcreteSlab",
+      "CUSTOM:BrownConcreteSlab",
+      "CUSTOM:GreenConcreteSlab",
+      "CUSTOM:RedConcreteSlab",
+      "CUSTOM:BlackConcreteSlab"
+    ],
+    "ENTITIES:minecraft:aquatic": [
+      "~CUSTOM:Jellyfish"
+    ]
+  },
+  "tab_element_order": {
+    "DECORATIONS": [
+      "AppleTreeSapling",
+      "PalmTreeSapling",
+      "CoconutBlock",
+      "OakAppleLeaves",
+      "PalmLeaves",
+      "Icicle",
+      "BlueberryBush",
+      "GrownBlueberryBush"
+    ],
+    "BUILDING_BLOCKS": [
+      "Permafrost",
+      "PalmLog",
+      "PalmWood",
+      "StrippedPalmLog",
+      "StrippedPalmWood",
+      "PalmPlanks",
+      "PalmStairs",
+      "PalmSlab",
+      "PalmFence",
+      "PalmFenceGate",
+      "PalmDoor",
+      "PalmTrapdoor",
+      "PalmPressurePlate",
+      "PalmButton"
+    ],
+    "COMBAT": [
+      "RabbitBoots",
+      "CoconutItem"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.community_collection.oak_apple_leaves": "Oak Apple Leaves",
+      "item.community_collection.apple_tree_sapling": "Apple Tree Sapling",
+      "item.community_collection.blueberry": "Blueberry",
+      "item.community_collection.blueberry_bush": "Blueberry Bush",
+      "item.community_collection.grown_blueberry_bush": "Blueberry Bush",
+      "item.community_collection.leather_backpack": "Leather Backpack",
+      "item.community_collection.copper_backpack": "Copper Backpack",
+      "item.community_collection.iron_backpack": "Iron Backpack",
+      "item.community_collection.gold_backpack": "Gold Backpack",
+      "item.community_collection.diamond_backpack": "Diamond Backpack",
+      "item.community_collection.netherite_backpack": "Netherite Backpack",
+      "item.community_collection.palm_log": "Palm Log",
+      "item.community_collection.palm_wood": "Palm Wood",
+      "item.community_collection.stripped_palm_log": "Stripped Palm Log",
+      "item.community_collection.stripped_palm_wood": "Stripped Palm Wood",
+      "item.community_collection.palm_planks": "Palm Planks",
+      "item.community_collection.palm_leaves": "Palm Fronds",
+      "item.community_collection.palm_stairs": "Palm Stairs",
+      "item.community_collection.palm_slab": "Palm Slab",
+      "item.community_collection.palm_fence": "Palm Fence",
+      "item.community_collection.palm_fence_gate": "Palm Fence Gate",
+      "item.community_collection.palm_door": "Palm Door",
+      "item.community_collection.palm_trapdoor": "Palm Trapdoor",
+      "item.community_collection.palm_pressure_plate": "Palm Pressure Plate",
+      "item.community_collection.palm_button": "Palm Button",
+      "item.community_collection.palm_tree_sapling": "Palm Tree Sapling",
+      "item.community_collection.coconut_item": "Coconut",
+      "item.community_collection.coconut_piece": "Coconut Piece",
+      "item.community_collection.coconut_milk": "Coconut Milk",
+      "item.community_collection.coconut_block": "Coconut Block",
+      "biome.community_collection.ice_cave": "Ice Cave",
+      "item.community_collection.icicle": "Icicle",
+      "item.community_collection.permafrost": "Permafrost",
+      "item.community_collection.rabbit_boots_boots": "Rabbit Boots",
+      "entity.community_collection.capybara": "Capybara",
+      "item.community_collection.capybara_spawn_egg": "Capybara Spawn Egg",
+      "enchantment.community_collection.revealing": "Revealing",
+      "item.community_collection.white_concrete_stairs": "White Concrete Stairs",
+      "item.community_collection.white_concrete_slab": "White Concrete Slab",
+      "item.community_collection.orange_concrete_stairs": "Orange Concrete Stairs",
+      "item.community_collection.orange_concrete_slab": "Orange Concrete Slab",
+      "item.community_collection.magenta_concrete_stairs": "Magenta Concrete Stairs",
+      "item.community_collection.magenta_concrete_slab": "Magenta Concrete Slab",
+      "item.community_collection.light_blue_concrete_stairs": "Light Blue Concrete Stairs",
+      "item.community_collection.light_blue_concrete_slab": "Light Blue Concrete Slab",
+      "item.community_collection.yellow_concrete_stairs": "Yellow Concrete Stairs",
+      "item.community_collection.yellow_concrete_slab": "Yellow Concrete Slab",
+      "item.community_collection.lime_concrete_stairs": "Lime Concrete Stairs",
+      "item.community_collection.lime_concrete_slab": "Lime Concrete Slab",
+      "item.community_collection.pink_concrete_stairs": "Pink Concrete Stairs",
+      "item.community_collection.pink_concrete_slab": "Pink Concrete Slab",
+      "item.community_collection.gray_concrete_stairs": "Gray Concrete Stairs",
+      "item.community_collection.gray_concrete_slab": "Gray Concrete Slab",
+      "item.community_collection.light_gray_concrete_stairs": "Light Gray Concrete Stairs",
+      "item.community_collection.light_gray_concrete_slab": "Light Gray Concrete Slab",
+      "item.community_collection.cyan_concrete_stairs": "Cyan Concrete Stairs",
+      "item.community_collection.cyan_concrete_slab": "Cyan Concrete Slab",
+      "item.community_collection.purple_concrete_stairs": "Purple Concrete Stairs",
+      "item.community_collection.purple_concrete_slab": "Purple Concrete Slab",
+      "item.community_collection.blue_concrete_stairs": "Blue Concrete Stairs",
+      "item.community_collection.blue_concrete_slab": "Blue Concrete Slab",
+      "item.community_collection.brown_concrete_stairs": "Brown Concrete Stairs",
+      "item.community_collection.brown_concrete_slab": "Brown Concrete Slab",
+      "item.community_collection.green_concrete_stairs": "Green Concrete Stairs",
+      "item.community_collection.green_concrete_slab": "Green Concrete Slab",
+      "item.community_collection.red_concrete_stairs": "Red Concrete Stairs",
+      "item.community_collection.red_concrete_slab": "Red Concrete Slab",
+      "item.community_collection.black_concrete_stairs": "Black Concrete Stairs",
+      "item.community_collection.black_concrete_slab": "Black Concrete Slab",
+      "item.community_collection.jellyfish_spawn_egg": "Jellyfish Spawn Egg",
+      "entity.community_collection.jellyfish": "Jellyfish"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/communitycollection/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModBiomes.java",
+      "src/main/java/net/mcreator/communitycollection/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModMenus.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModScreens.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModBlocks.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModItems.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModEntities.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModEntityRenderers.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModModels.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModTabs.java",
+      "src/main/java/net/mcreator/communitycollection/CommunityCollectionMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/communitycollection/network/CommunityCollectionModVariables.java",
+      "src/main/resources/community_collection.mixins.json",
+      "src/main/java/net/mcreator/communitycollection/client/ItemArms.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ],
+    "betteranimations_models": {},
+    "betteranimations_perspectives": {
+      "Blueberry": "All perspectives",
+      "LeatherBackpack": "All perspectives",
+      "CopperBackpack": "All perspectives",
+      "IronBackpack": "All perspectives",
+      "GoldBackpack": "All perspectives",
+      "DiamondBackpack": "All perspectives",
+      "NetheriteBackpack": "All perspectives",
+      "CoconutItem": "All perspectives",
+      "CoconutPiece": "All perspectives",
+      "CoconutMilk": "All perspectives"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Fruit Trees and Bushes",
+        "children": [
+          {
+            "name": "Apple",
+            "children": []
+          },
+          {
+            "name": "Blueberry",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Backpacks",
+        "children": []
+      },
+      {
+        "name": "Palm Trees",
+        "children": []
+      },
+      {
+        "name": "Ice Caves",
+        "children": []
+      },
+      {
+        "name": "General Enhancements",
+        "children": []
+      },
+      {
+        "name": "Rabbit Jump",
+        "children": []
+      },
+      {
+        "name": "Capybara",
+        "children": []
+      },
+      {
+        "name": "Revealing",
+        "children": []
+      },
+      {
+        "name": "Concrete",
+        "children": []
+      },
+      {
+        "name": "Jellyfish",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "community_collection",
+    "modName": "Community Collection",
+    "version": "26.0-beta",
+    "description": "A combination of popular ideas found on the minecraft feedback website.",
+    "author": "Tucky143",
+    "websiteURL": "https://legacy.curseforge.com/minecraft/mc-mods/community-collection",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.communitycollection"
+  },
+  "mcreatorVersion": 202500451613
+}

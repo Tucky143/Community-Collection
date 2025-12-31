@@ -1,0 +1,8 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "community_collection:block/grown_blueberry_bush",
+    "particle": "community_collection:block/grown_blueberry_bush"
+  },
+  "render_type": "cutout"
+}

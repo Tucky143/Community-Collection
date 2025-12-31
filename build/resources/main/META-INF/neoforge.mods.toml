@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="community_collection"
+version="26.0"
+displayName="Community Collection"
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/community-collection"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Tucky143"
+description="A combination of popular ideas found on the minecraft feedback website."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[mixins]]
+    config = "community_collection.mixins.json"
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.community_collection]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.8.31,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.community_collection]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.8]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

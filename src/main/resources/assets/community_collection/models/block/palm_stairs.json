@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "community_collection:block/palm_planks",
+    "bottom": "community_collection:block/palm_planks",
+    "top": "community_collection:block/palm_planks",
+    "side": "community_collection:block/palm_planks"
+  },
+  "render_type": "solid"
+}

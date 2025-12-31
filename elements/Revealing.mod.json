@@ -1,0 +1,22 @@
+{
+  "_fv": 81,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Revealing",
+    "supportedSlots": "any",
+    "weight": 4,
+    "anvilCost": 1,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "TAG:minecraft:enchantable/spyglass"
+      }
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

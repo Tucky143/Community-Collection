@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "coconut_milk",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "community_collection:coconut_piece",
+    "community_collection:coconut_piece",
+    "community_collection:coconut_piece"
+  ],
+  "result": {
+    "id": "community_collection:coconut_milk",
+    "count": 1
+  }
+}

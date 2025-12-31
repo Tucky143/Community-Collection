@@ -1,0 +1,53 @@
+{
+  "_fv": 81,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_door",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:PalmPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PalmPlanks"
+      },
+      {
+        "value": "CUSTOM:PalmPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PalmPlanks"
+      },
+      {
+        "value": "CUSTOM:PalmPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PalmPlanks"
+      },
+      {
+        "value": "CUSTOM:PalmPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PalmDoor"
+    },
+    "name": "palm_door_recipe",
+    "namespace": "mod"
+  }
+}

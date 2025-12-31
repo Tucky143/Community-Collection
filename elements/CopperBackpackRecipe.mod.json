@@ -1,0 +1,56 @@
+{
+  "_fv": 81,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "backpack",
+    "unlockingItems": [
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "TAG:mod:backpack"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.HONEYCOMB"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "CUSTOM:LeatherBackpack"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CopperBackpack"
+    },
+    "name": "copper_backpack_recipe",
+    "namespace": "mod"
+  }
+}

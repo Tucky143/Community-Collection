@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "backpack",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:iron_block",
+    "c": "community_collection:leather_backpack"
+  },
+  "result": {
+    "id": "community_collection:iron_backpack",
+    "count": 1
+  }
+}

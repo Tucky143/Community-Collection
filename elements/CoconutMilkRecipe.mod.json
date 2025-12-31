@@ -1,0 +1,56 @@
+{
+  "_fv": 81,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "coconut_milk",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CoconutPiece"
+      },
+      {
+        "value": "CUSTOM:CoconutMilk"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": "CUSTOM:CoconutPiece"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CoconutPiece"
+      },
+      {
+        "value": "CUSTOM:CoconutPiece"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CoconutMilk"
+    },
+    "name": "coconut_milk_recipe",
+    "namespace": "mod"
+  }
+}

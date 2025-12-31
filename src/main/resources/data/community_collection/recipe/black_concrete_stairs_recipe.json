@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete_stairs",
+  "category": "building",
+  "pattern": [
+    "  a",
+    " aa",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:black_concrete"
+  },
+  "result": {
+    "id": "community_collection:black_concrete_stairs",
+    "count": 4
+  }
+}

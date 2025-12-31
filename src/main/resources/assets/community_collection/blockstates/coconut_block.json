@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "community_collection:block/coconut_block"
+    },
+    "facing=east": {
+      "model": "community_collection:block/coconut_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "community_collection:block/coconut_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "community_collection:block/coconut_block",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "community_collection:block/palm_slab"
+    },
+    "type=top": {
+      "model": "community_collection:block/palm_slab_top"
+    },
+    "type=double": {
+      "model": "community_collection:block/palm_slab_full"
+    }
+  }
+}

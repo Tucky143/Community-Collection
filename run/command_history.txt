@@ -1,0 +1,50 @@
+/give @s minecraft:amethyst_shard 64
+/give @s minecraft:spyglass
+/enchant @a minecraft:unbreaking 3
+/enchant @a minecraft:mending
+/enchant @a community_collection:revealing 5
+/locate biome minecraft:beach
+/tp @s -263 78 -216
+/locate biome minecraft:forest
+/tp @s -533 68 -467
+/locate biome minecraft:swamp
+/tp @s 3067 78 255
+/locate biome community_collection:ice_cave
+/tp @s 3758 19 325
+/locate biome community_collection:ice_cave
+/tp @s 3708 22 860
+/effect give @s minecraft:night_vision infinite 1 true
+/effect clear @s
+/time set day
+/gamemode creative
+/locate biome community_collection:ice_cave
+/tp @s 1109 8 -591
+/locate biome community_collection:ice_cave
+/tp @s 1558 -4 -945
+/locate biome minecraft:snowy_slopes
+/tp @s 402 51 -1528
+/gamemode creative
+/enchant @a community_collection:revealing
+/recipe take @a *
+/kill
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/summon minecraft:acacia_boat
+/summon community_collection:jellyfish
+/kill
+/gamemode survival
+/summon community_collection:jellyfish
+/summon minecraft:acacia_boat
+/summon community_collection:jellyfish
+/gamemode creative
+/give @a minecraft:diamond_pickaxe
+/gamemode survival
+/summon community_collection:jellyfish
+/gamemode survival
+/gamemode creative
+/fill 7 55 30
+/fill 7 55 30 -5 52 51 water
+/gamemode survival
+/gamemode creative
+/gamemode survival

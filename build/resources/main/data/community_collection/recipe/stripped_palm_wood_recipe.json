@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "community_collection:stripped_palm_log"
+  },
+  "result": {
+    "id": "community_collection:stripped_palm_wood",
+    "count": 3
+  }
+}

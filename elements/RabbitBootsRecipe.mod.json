@@ -1,0 +1,56 @@
+{
+  "_fv": 81,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.RABBIT_FOOT"
+      },
+      {
+        "value": "Items.RABBIT_HIDE"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.RABBIT_HIDE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.RABBIT_HIDE"
+      },
+      {
+        "value": "Items.RABBIT_FOOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.RABBIT_FOOT"
+      },
+      {
+        "value": "Items.RABBIT_FOOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.RABBIT_FOOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RabbitBoots.boots"
+    },
+    "name": "rabbit_boots_recipe",
+    "namespace": "mod"
+  }
+}
