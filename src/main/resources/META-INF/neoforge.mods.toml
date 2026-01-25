@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="community_collection"
-version="26.0"
+version="26.0.2"
 displayName="Community Collection"
 displayURL="https://legacy.curseforge.com/minecraft/mc-mods/community-collection"
 logoFile="logo.png"

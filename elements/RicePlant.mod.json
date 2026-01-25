@@ -1,0 +1,132 @@
+{
+  "_fv": 81,
+  "_type": "plant",
+  "definition": {
+    "renderType": 120,
+    "texture": "rice_plant_top",
+    "textureBottom": "rice_plant_bottom",
+    "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "Grass",
+    "isItemTinted": true,
+    "plantType": "double",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "secondaryTreeChance": 0.1,
+    "trees": [
+      null,
+      null
+    ],
+    "flowerTrees": [
+      null,
+      null
+    ],
+    "megaTrees": [
+      null,
+      null
+    ],
+    "growapableSpawnType": "Beach",
+    "growapableMaxHeight": 2,
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Rice Plant",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isWaterloggable": true,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": true,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XYZ",
+    "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
+    "ignitedByLava": false,
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 0.5,
+    "canBePlacedOn": [],
+    "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "BlueberryBushBoneMealSuccessCondition"
+    },
+    "onBonemealSuccess": {
+      "name": "RicePlantOnBonemeal"
+    },
+    "frequencyOnChunks": 8,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      }
+    ],
+    "generationType": "Grass",
+    "patchSize": 16,
+    "generateAtAnyHeight": false,
+    "onTickUpdate": {
+      "name": "RicePlantOnTickUpdate"
+    },
+    "onDestroyedByPlayer": {
+      "name": "RicePlantLoot"
+    }
+  }
+}

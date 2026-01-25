@@ -1,0 +1,22 @@
+{
+  "_fv": 81,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Shrinking",
+    "splashName": "Splash Potion of Shrinking",
+    "lingeringName": "Lingering Potion of Shrinking",
+    "arrowName": "Arrow of Shrinking",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Shrunken"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

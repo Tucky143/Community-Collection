@@ -1,0 +1,56 @@
+{
+  "_fv": 81,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "rice_bowl",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": "Items.BOWL"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": "CUSTOM:Rice"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BowlOfRice"
+    },
+    "name": "rice_bowl_recipe",
+    "namespace": "mod"
+  }
+}

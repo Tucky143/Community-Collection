@@ -21,11 +21,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.communitycollection.network.CommunityCollectionModVariables;
-import net.mcreator.communitycollection.init.CommunityCollectionModTabs;
-import net.mcreator.communitycollection.init.CommunityCollectionModMenus;
-import net.mcreator.communitycollection.init.CommunityCollectionModItems;
-import net.mcreator.communitycollection.init.CommunityCollectionModEntities;
-import net.mcreator.communitycollection.init.CommunityCollectionModBlocks;
+import net.mcreator.communitycollection.init.*;
 
 import javax.annotation.Nullable;
 
@@ -50,12 +46,16 @@ public class CommunityCollectionMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		CommunityCollectionModSounds.REGISTRY.register(modEventBus);
 		CommunityCollectionModBlocks.REGISTRY.register(modEventBus);
 		CommunityCollectionModItems.REGISTRY.register(modEventBus);
 		CommunityCollectionModEntities.REGISTRY.register(modEventBus);
 		CommunityCollectionModTabs.REGISTRY.register(modEventBus);
 		CommunityCollectionModVariables.ATTACHMENT_TYPES.register(modEventBus);
+		CommunityCollectionModPotions.REGISTRY.register(modEventBus);
+		CommunityCollectionModMobEffects.REGISTRY.register(modEventBus);
 		CommunityCollectionModMenus.REGISTRY.register(modEventBus);
+		CommunityCollectionModParticleTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

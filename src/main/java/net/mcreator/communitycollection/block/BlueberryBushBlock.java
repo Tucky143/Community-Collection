@@ -29,7 +29,8 @@ import net.mcreator.communitycollection.init.CommunityCollectionModBlocks;
 
 public class BlueberryBushBlock extends FlowerBlock implements BonemealableBlock {
 	public BlueberryBushBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.NIGHT_VISION, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollission().ignitedByLava().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.NIGHT_VISION, 100,
+				properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().speedFactor(0.6f).jumpFactor(0.6f).noCollission().ignitedByLava().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

@@ -74,6 +74,7 @@ public class CommunityCollectionModBlocks {
 	public static final DeferredBlock<Block> RED_CONCRETE_SLAB;
 	public static final DeferredBlock<Block> BLACK_CONCRETE_STAIRS;
 	public static final DeferredBlock<Block> BLACK_CONCRETE_SLAB;
+	public static final DeferredBlock<Block> RICE_PLANT;
 	static {
 		OAK_APPLE_LEAVES = register("oak_apple_leaves", OakAppleLeavesBlock::new);
 		APPLE_TREE_SAPLING = register("apple_tree_sapling", AppleTreeSaplingBlock::new);
@@ -129,6 +130,7 @@ public class CommunityCollectionModBlocks {
 		RED_CONCRETE_SLAB = register("red_concrete_slab", RedConcreteSlabBlock::new);
 		BLACK_CONCRETE_STAIRS = register("black_concrete_stairs", BlackConcreteStairsBlock::new);
 		BLACK_CONCRETE_SLAB = register("black_concrete_slab", BlackConcreteSlabBlock::new);
+		RICE_PLANT = register("rice_plant", RicePlantBlock::new);
 	}
 
 	// Start of user code block custom blocks
@@ -145,6 +147,7 @@ public class CommunityCollectionModBlocks {
 			BlueberryBushBlock.blockColorLoad(event);
 			GrownBlueberryBushBlock.blockColorLoad(event);
 			PalmLeavesBlock.blockColorLoad(event);
+			RicePlantBlock.blockColorLoad(event);
 		}
 	}
 }

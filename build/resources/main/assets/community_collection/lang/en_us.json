@@ -69,5 +69,17 @@
   "item.community_collection.black_concrete_stairs": "Black Concrete Stairs",
   "item.community_collection.black_concrete_slab": "Black Concrete Slab",
   "item.community_collection.jellyfish_spawn_egg": "Jellyfish Spawn Egg",
-  "entity.community_collection.jellyfish": "Jellyfish"
+  "entity.community_collection.jellyfish": "Jellyfish",
+  "item.community_collection.rice": "Rice",
+  "item.community_collection.rice_plant": "Rice Plant",
+  "item.community_collection.bowl_of_rice": "Bowl of Rice",
+  "gamerule.improvedWeatherRule": "Improved Weather",
+  "gamerule.improvedWeatherRule.description": "Adds new looks to weather events.",
+  "subtitles.wind": "Wind",
+  "item.community_collection.capybara_hide": "Capybara Hide",
+  "effect.community_collection.shrunken": "Shrunken",
+  "item.minecraft.tipped_arrow.effect.potion_of_shrinking": "Arrow of Shrinking",
+  "item.minecraft.lingering_potion.effect.potion_of_shrinking": "Lingering Potion of Shrinking",
+  "item.minecraft.splash_potion.effect.potion_of_shrinking": "Splash Potion of Shrinking",
+  "item.minecraft.potion.effect.potion_of_shrinking": "Potion of Shrinking"
 }

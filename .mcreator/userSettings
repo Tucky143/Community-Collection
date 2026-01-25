@@ -2,7 +2,7 @@
   "workspacePanelIconSize": "TILES",
   "workspacePanelSortType": "TYPE",
   "workspacePanelSortAscending": true,
-  "projectBrowserSplitPos": 282,
+  "projectBrowserSplitPos": 249,
   "projectBrowserState": {
     "expandedPaths": [
       "[, Community Collection]",
@@ -10,9 +10,7 @@
       "[, Community Collection, Source (Gradle), C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net]",
       "[, Community Collection, Source (Gradle), C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator]",
       "[, Community Collection, Source (Gradle), C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator\\communitycollection]",
-      "[, Community Collection, Source (Gradle), C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator\\communitycollection, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator\\communitycollection\\procedures]",
-      "[, Community Collection, Source (Gradle), C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator\\communitycollection, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator\\communitycollection\\world]",
-      "[, Community Collection, Source (Gradle), C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator\\communitycollection, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator\\communitycollection\\world, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator\\communitycollection\\world\\inventory]",
+      "[, Community Collection, Source (Gradle), C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator\\communitycollection, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\java\\net\\mcreator\\communitycollection\\init]",
       "[, Community Collection, Resources (Gradle)]",
       "[, Community Collection, Resources (Gradle), C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\resources\\assets]",
       "[, Community Collection, Resources (Gradle), C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\resources\\assets, C:\\Users\\tucke\\MCreatorWorkspaces\\community_collection\\src\\main\\resources\\assets\\community_collection]",

@@ -9,8 +9,8 @@
   ],
   "spawners": {
     "type": "community_collection:jellyfish",
-    "weight": 10,
+    "weight": 8,
     "minCount": 1,
-    "maxCount": 10
+    "maxCount": 12
   }
 }

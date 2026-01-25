@@ -27,7 +27,7 @@ import net.mcreator.communitycollection.init.CommunityCollectionModBlocks;
 
 public class GrownBlueberryBushBlock extends FlowerBlock {
 	public GrownBlueberryBushBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.NIGHT_VISION, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(MobEffects.NIGHT_VISION, 100, properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().speedFactor(0.6f).jumpFactor(0.6f).noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

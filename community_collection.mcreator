@@ -2845,6 +2845,537 @@
         ]
       },
       "path": "~/Jellyfish"
+    },
+    {
+      "name": "Rice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/item/RiceItem.java",
+          "src/main/resources/assets/community_collection/items/rice.json",
+          "src/main/resources/assets/community_collection/models/item/rice.json"
+        ]
+      },
+      "path": "~/Rice"
+    },
+    {
+      "name": "RicePlant",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rice_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/blockstates/rice_plant.json",
+          "src/main/resources/data/community_collection/worldgen/placed_feature/rice_plant.json",
+          "src/main/resources/assets/community_collection/models/item/rice_plant.json",
+          "src/main/java/net/mcreator/communitycollection/block/RicePlantBlock.java",
+          "src/main/resources/assets/community_collection/items/rice_plant.json",
+          "src/main/resources/data/community_collection/neoforge/biome_modifier/rice_plant_biome_modifier.json",
+          "src/main/resources/assets/community_collection/models/block/rice_plant.json",
+          "src/main/resources/assets/community_collection/models/block/rice_plant_bottom.json",
+          "src/main/resources/data/community_collection/worldgen/configured_feature/rice_plant.json"
+        ]
+      },
+      "path": "~/Rice"
+    },
+    {
+      "name": "RiceRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rice_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/RiceRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/Rice"
+    },
+    {
+      "name": "BowlOfRice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowl_of_rice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/item/BowlOfRiceItem.java",
+          "src/main/resources/assets/community_collection/models/item/bowl_of_rice.json",
+          "src/main/resources/assets/community_collection/items/bowl_of_rice.json"
+        ]
+      },
+      "path": "~/Rice"
+    },
+    {
+      "name": "RiceBowlRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rice_bowl_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/community_collection/advancement/recipes/rice_bowl_recipe.json",
+          "src/main/resources/data/community_collection/recipe/rice_bowl_recipe.json"
+        ]
+      },
+      "path": "~/Rice"
+    },
+    {
+      "name": "TurtleHelmetBlocksMace",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_helmet_blocks_mace",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/TurtleHelmetBlocksMaceProcedure.java"
+        ]
+      },
+      "path": "~/General Enhancements"
+    },
+    {
+      "name": "ImprovedWeatherRule",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "improved_weather_rule",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      },
+      "path": "~/Weather"
+    },
+    {
+      "name": "Rain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rain",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "fogRenderEvent",
+            "type": "fogRenderEvent"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/RainProcedure.java"
+        ]
+      },
+      "path": "~/Weather"
+    },
+    {
+      "name": "GetWeatherGamerule",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_weather_gamerule",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/GetWeatherGameruleProcedure.java"
+        ]
+      },
+      "path": "~/Weather"
+    },
+    {
+      "name": "Thunder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "fogRenderEvent",
+            "type": "fogRenderEvent"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/ThunderProcedure.java"
+        ]
+      },
+      "path": "~/Weather"
+    },
+    {
+      "name": "Snow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "fogRenderEvent",
+            "type": "fogRenderEvent"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/SnowProcedure.java"
+        ]
+      },
+      "path": "~/Weather"
+    },
+    {
+      "name": "ServerSync",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_sync",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/ServerSyncProcedure.java"
+        ]
+      },
+      "path": "~/Weather"
+    },
+    {
+      "name": "Dust",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "fogRenderEvent",
+            "type": "fogRenderEvent"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/DustProcedure.java"
+        ]
+      },
+      "path": "~/Weather"
+    },
+    {
+      "name": "WeatherDust",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weather_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/client/particle/WeatherDustParticle.java",
+          "src/main/resources/assets/community_collection/particles/weather_dust.json"
+        ]
+      },
+      "path": "~/Weather"
+    },
+    {
+      "name": "WindSound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_sound",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/WindSoundProcedure.java"
+        ]
+      },
+      "path": "~/Weather"
+    },
+    {
+      "name": "RicePlantLoot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rice_plant_loot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/RicePlantLootProcedure.java"
+        ]
+      },
+      "path": "~/Rice"
+    },
+    {
+      "name": "RicePlantOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rice_plant_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/RicePlantOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Rice"
+    },
+    {
+      "name": "RicePlantOnBonemeal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rice_plant_on_bonemeal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/RicePlantOnBonemealProcedure.java"
+        ]
+      },
+      "path": "~/Rice"
+    },
+    {
+      "name": "CapybaraHide",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capybara_hide",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/capybara_hide.json",
+          "src/main/java/net/mcreator/communitycollection/item/CapybaraHideItem.java",
+          "src/main/resources/assets/community_collection/items/capybara_hide.json"
+        ]
+      },
+      "path": "~/Capybara"
+    },
+    {
+      "name": "Shrunken",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrunken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/potion/ShrunkenMobEffect.java"
+        ]
+      },
+      "path": "~/Capybara"
+    },
+    {
+      "name": "PotionOfShrinking",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_shrinking",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Capybara"
+    },
+    {
+      "name": "ShrinkingPotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrinking_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/recipe/brewing/ShrinkingPotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Capybara"
     }
   ],
   "variable_elements": [
@@ -2853,9 +3384,42 @@
       "type": "itemstack",
       "scope": "player_persistent",
       "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "FancyWeather",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "Thundering",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "SyncTimer",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "wind_sound_timer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "wind",
+      "files": [
+        "wind"
+      ],
+      "category": "weather",
+      "subtitle": "Wind"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:PalmLeaves",
@@ -3129,7 +3693,9 @@
       "PalmLeaves",
       "Icicle",
       "BlueberryBush",
-      "GrownBlueberryBush"
+      "GrownBlueberryBush",
+      "Rice",
+      "RicePlant"
     ],
     "BUILDING_BLOCKS": [
       "Permafrost",
@@ -3224,7 +3790,19 @@
       "item.community_collection.black_concrete_stairs": "Black Concrete Stairs",
       "item.community_collection.black_concrete_slab": "Black Concrete Slab",
       "item.community_collection.jellyfish_spawn_egg": "Jellyfish Spawn Egg",
-      "entity.community_collection.jellyfish": "Jellyfish"
+      "entity.community_collection.jellyfish": "Jellyfish",
+      "item.community_collection.rice": "Rice",
+      "item.community_collection.rice_plant": "Rice Plant",
+      "item.community_collection.bowl_of_rice": "Bowl of Rice",
+      "gamerule.improvedWeatherRule": "Improved Weather",
+      "gamerule.improvedWeatherRule.description": "Adds new looks to weather events.",
+      "subtitles.wind": "Wind",
+      "item.community_collection.capybara_hide": "Capybara Hide",
+      "effect.community_collection.shrunken": "Shrunken",
+      "item.minecraft.tipped_arrow.effect.potion_of_shrinking": "Arrow of Shrinking",
+      "item.minecraft.lingering_potion.effect.potion_of_shrinking": "Lingering Potion of Shrinking",
+      "item.minecraft.splash_potion.effect.potion_of_shrinking": "Splash Potion of Shrinking",
+      "item.minecraft.potion.effect.potion_of_shrinking": "Potion of Shrinking"
     }
   },
   "metadata": {
@@ -3234,6 +3812,11 @@
       "src/main/java/net/mcreator/communitycollection/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModMenus.java",
       "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModScreens.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModGameRules.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModParticles.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModParticleTypes.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModMobEffects.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModPotions.java",
       "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModBlocks.java",
       "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModItems.java",
       "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModEntities.java",
@@ -3241,12 +3824,15 @@
       "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModModels.java",
       "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModTabs.java",
       "src/main/java/net/mcreator/communitycollection/CommunityCollectionMod.java",
+      "src/main/java/net/mcreator/communitycollection/init/CommunityCollectionModSounds.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/communitycollection/network/CommunityCollectionModVariables.java",
       "src/main/resources/community_collection.mixins.json",
+      "src/main/java/net/mcreator/communitycollection/client/RenderUtils.java",
       "src/main/java/net/mcreator/communitycollection/client/ItemArms.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/community_collection/sounds.json"
     ],
     "betteranimations_models": {},
     "betteranimations_perspectives": {
@@ -3259,7 +3845,10 @@
       "NetheriteBackpack": "All perspectives",
       "CoconutItem": "All perspectives",
       "CoconutPiece": "All perspectives",
-      "CoconutMilk": "All perspectives"
+      "CoconutMilk": "All perspectives",
+      "Rice": "All perspectives",
+      "BowlOfRice": "All perspectives",
+      "CapybaraHide": "All perspectives"
     }
   },
   "foldersRoot": {
@@ -3313,13 +3902,21 @@
       {
         "name": "Jellyfish",
         "children": []
+      },
+      {
+        "name": "Rice",
+        "children": []
+      },
+      {
+        "name": "Weather",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "community_collection",
     "modName": "Community Collection",
-    "version": "26.0-beta",
+    "version": "26.0-beta.2",
     "description": "A combination of popular ideas found on the minecraft feedback website.",
     "author": "Tucky143",
     "websiteURL": "https://legacy.curseforge.com/minecraft/mc-mods/community-collection",

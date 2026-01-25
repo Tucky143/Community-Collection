@@ -1,0 +1,8 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "community_collection:block/rice_plant_top",
+    "particle": "community_collection:block/rice_plant_top"
+  },
+  "render_type": "cutout"
+}

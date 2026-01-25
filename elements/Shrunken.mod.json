@@ -1,0 +1,50 @@
+{
+  "_fv": 81,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Shrunken",
+    "icon": "shrunken",
+    "color": {
+      "value": -13290187,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": "entity.wandering_trader.disappeared"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "SCALE"
+        },
+        "amount": -0.75,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "attribute": {
+          "value": "NAMETAG_RENDER_DISTANCE"
+        },
+        "amount": -0.75,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "attribute": {
+          "value": "CAMERA_DISTANCE"
+        },
+        "amount": -0.5,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      },
+      {
+        "attribute": {
+          "value": "FOLLOW_RANGE"
+        },
+        "amount": -0.75,
+        "operation": "ADD_MULTIPLIED_TOTAL"
+      }
+    ]
+  }
+}

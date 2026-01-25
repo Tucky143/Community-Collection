@@ -24,6 +24,8 @@ public class CommunityCollectionModTabs {
 			tabData.accept(CommunityCollectionModItems.BLUEBERRY.get());
 			tabData.accept(CommunityCollectionModItems.COCONUT_PIECE.get());
 			tabData.accept(CommunityCollectionModItems.COCONUT_MILK.get());
+			tabData.accept(CommunityCollectionModItems.RICE.get());
+			tabData.accept(CommunityCollectionModItems.BOWL_OF_RICE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(CommunityCollectionModItems.LEATHER_BACKPACK.get());
 			tabData.accept(CommunityCollectionModItems.COPPER_BACKPACK.get());
@@ -33,6 +35,7 @@ public class CommunityCollectionModTabs {
 			tabData.accept(CommunityCollectionModItems.NETHERITE_BACKPACK.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(CommunityCollectionModItems.COCONUT_ITEM.get());
+			tabData.accept(CommunityCollectionModItems.CAPYBARA_HIDE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(CommunityCollectionModItems.CAPYBARA_SPAWN_EGG.get());
 			tabData.accept(CommunityCollectionModItems.JELLYFISH_SPAWN_EGG.get());
@@ -76,6 +79,8 @@ public class CommunityCollectionModTabs {
 			tabData.accept(CommunityCollectionModBlocks.OAK_APPLE_LEAVES.get().asItem());
 			tabData.accept(CommunityCollectionModBlocks.PALM_LEAVES.get().asItem());
 			tabData.accept(CommunityCollectionModBlocks.ICICLE.get().asItem());
+			tabData.accept(CommunityCollectionModItems.RICE.get());
+			tabData.accept(CommunityCollectionModBlocks.RICE_PLANT.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(CommunityCollectionModBlocks.PERMAFROST.get().asItem());
 			tabData.accept(CommunityCollectionModBlocks.PALM_LOG.get().asItem());

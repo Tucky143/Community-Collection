@@ -91,6 +91,10 @@ public class CommunityCollectionModItems {
 	public static final DeferredItem<Item> BLACK_CONCRETE_STAIRS;
 	public static final DeferredItem<Item> BLACK_CONCRETE_SLAB;
 	public static final DeferredItem<Item> JELLYFISH_SPAWN_EGG;
+	public static final DeferredItem<Item> RICE;
+	public static final DeferredItem<Item> RICE_PLANT;
+	public static final DeferredItem<Item> BOWL_OF_RICE;
+	public static final DeferredItem<Item> CAPYBARA_HIDE;
 	static {
 		OAK_APPLE_LEAVES = block(CommunityCollectionModBlocks.OAK_APPLE_LEAVES);
 		APPLE_TREE_SAPLING = block(CommunityCollectionModBlocks.APPLE_TREE_SAPLING);
@@ -157,6 +161,10 @@ public class CommunityCollectionModItems {
 		BLACK_CONCRETE_STAIRS = block(CommunityCollectionModBlocks.BLACK_CONCRETE_STAIRS);
 		BLACK_CONCRETE_SLAB = block(CommunityCollectionModBlocks.BLACK_CONCRETE_SLAB);
 		JELLYFISH_SPAWN_EGG = register("jellyfish_spawn_egg", properties -> new SpawnEggItem(CommunityCollectionModEntities.JELLYFISH.get(), properties));
+		RICE = register("rice", RiceItem::new);
+		RICE_PLANT = doubleBlock(CommunityCollectionModBlocks.RICE_PLANT);
+		BOWL_OF_RICE = register("bowl_of_rice", BowlOfRiceItem::new);
+		CAPYBARA_HIDE = register("capybara_hide", CapybaraHideItem::new);
 	}
 
 	// Start of user code block custom items

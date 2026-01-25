@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "community_collection:block/rice_plant"
+    },
+    "half=lower": {
+      "model": "community_collection:block/rice_plant_bottom"
+    }
+  }
+}

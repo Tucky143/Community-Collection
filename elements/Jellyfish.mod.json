@@ -101,7 +101,7 @@
     "attackStrength": 3,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.1,
-    "movementSpeed": 0.7,
+    "movementSpeed": 0.4,
     "stepHeight": 0.6,
     "armorBaseValue": 0.0,
     "trackingRange": 32,
@@ -175,10 +175,10 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 10,
+    "spawningProbability": 8,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 10,
+    "maxNumberOfMobsPerGroup": 12,
     "restrictionBiomes": [
       {
         "value": "deep_lukewarm_ocean"

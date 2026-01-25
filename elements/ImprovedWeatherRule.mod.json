@@ -1,0 +1,12 @@
+{
+  "_fv": 81,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Improved Weather",
+    "description": "Adds new looks to weather events.",
+    "category": "UPDATES",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

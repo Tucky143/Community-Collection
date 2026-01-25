@@ -102,8 +102,8 @@
     "ignitedByLava": true,
     "flammability": 100,
     "fireSpreadSpeed": 120,
-    "jumpFactor": 1.0,
-    "speedFactor": 1.0,
+    "jumpFactor": 0.6,
+    "speedFactor": 0.6,
     "canBePlacedOn": [],
     "isBonemealable": true,
     "bonemealSuccessCondition": {

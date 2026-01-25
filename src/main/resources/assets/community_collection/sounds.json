@@ -1,0 +1,11 @@
+{
+  "wind": {
+    "subtitle": "subtitles.wind",
+    "sounds": [
+      {
+        "name": "community_collection:wind",
+        "stream": false
+      }
+    ]
+  }
+}

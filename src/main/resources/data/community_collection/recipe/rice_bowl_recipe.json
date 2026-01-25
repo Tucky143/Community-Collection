@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rice_bowl",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "community_collection:rice",
+    "community_collection:rice",
+    "community_collection:rice",
+    "community_collection:rice",
+    "community_collection:rice"
+  ],
+  "result": {
+    "id": "community_collection:bowl_of_rice",
+    "count": 1
+  }
+}
