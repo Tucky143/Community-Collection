@@ -4,11 +4,11 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="community_collection"
-version="26.0.2"
+version="26.0.1"
 displayName="Community Collection"
 displayURL="https://legacy.curseforge.com/minecraft/mc-mods/community-collection"
 logoFile="logo.png"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Tucky143, MCreator by Pylo"
 authors="Tucky143"
 description="A combination of popular ideas found on the minecraft feedback website."
 

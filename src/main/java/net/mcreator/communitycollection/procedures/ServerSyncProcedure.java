@@ -10,7 +10,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.server.level.ServerLevel;
 
 import net.mcreator.communitycollection.network.CommunityCollectionModVariables;
-import net.mcreator.communitycollection.CommunityCollectionMod;
 
 import javax.annotation.Nullable;
 
@@ -33,8 +32,6 @@ public class ServerSyncProcedure {
 				if (CommunityCollectionModVariables.MapVariables.get(world).Thundering != world.getLevelData().isThundering()) {
 					CommunityCollectionModVariables.MapVariables.get(world).Thundering = world.getLevelData().isThundering();
 					CommunityCollectionModVariables.MapVariables.get(world).markSyncDirty();
-					CommunityCollectionMod.LOGGER.info("World Thunder" + world.getLevelData().isThundering());
-					CommunityCollectionMod.LOGGER.info("Variable Thunder" + CommunityCollectionModVariables.MapVariables.get(world).Thundering);
 				}
 			}
 			world = _worldorig;

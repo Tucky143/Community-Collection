@@ -49,7 +49,10 @@ public class RevealingProcedureProcedure {
 						rX = entityiterator.getX();
 						rY = entityiterator.getY();
 						rZ = entityiterator.getZ();
-						world.addParticle(ParticleTypes.GLOW_SQUID_INK, rX, rY, rZ, 0.1, 0.5, 0.1);
+						world.addParticle(ParticleTypes.GLOW_SQUID_INK, rX, rY, rZ, 0.1, 0.4, 0.2);
+						world.addParticle(ParticleTypes.GLOW_SQUID_INK, rX, rY, rZ, 0.2, 0.4, 0.1);
+						world.addParticle(ParticleTypes.GLOW_SQUID_INK, rX, rY, rZ, 0.1, 0.4, (-0.2));
+						world.addParticle(ParticleTypes.GLOW_SQUID_INK, rX, rY, rZ, (-0.2), 0.4, 0.1);
 					}
 				}
 			}

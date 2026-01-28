@@ -3376,6 +3376,25 @@
         ]
       },
       "path": "~/Ice Caves"
+    },
+    {
+      "name": "GetWeatherGameruleOnWorldLoad",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_weather_gamerule_on_world_load",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/communitycollection/procedures/GetWeatherGameruleOnWorldLoadProcedure.java"
+        ]
+      },
+      "path": "~/Weather"
     }
   ],
   "variable_elements": [
@@ -3689,7 +3708,11 @@
     ],
     "BLOCKS:minecraft:base_stone_overworld": [
       "CUSTOM:Permafrost"
-    ]
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:Permafrost"
+    ],
+    "BIOMES:minecraft:is_overworld": []
   },
   "tab_element_order": {
     "DECORATIONS": [
@@ -3923,7 +3946,7 @@
   "workspaceSettings": {
     "modid": "community_collection",
     "modName": "Community Collection",
-    "version": "26.0-beta.2",
+    "version": "26.0-release.1",
     "description": "A combination of popular ideas found on the minecraft feedback website.",
     "author": "Tucky143",
     "websiteURL": "https://legacy.curseforge.com/minecraft/mc-mods/community-collection",
@@ -3935,7 +3958,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.8",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Tucky143, MCreator by Pylo",
     "modElementsPackage": "net.mcreator.communitycollection"
   },
   "mcreatorVersion": 202500451613
