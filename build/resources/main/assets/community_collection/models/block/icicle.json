@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "community_collection:block/icicle",
-    "particle": "community_collection:block/icicle"
-  },
-  "render_type": "translucent"
-}

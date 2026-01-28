@@ -55,7 +55,6 @@ public class CommunityCollectionModItems {
 	public static final DeferredItem<Item> COCONUT_MILK;
 	public static final DeferredItem<Item> COCONUT_BLOCK;
 	public static final DeferredItem<Item> ICICLE;
-	public static final DeferredItem<Item> PERMAFROST;
 	public static final DeferredItem<Item> RABBIT_BOOTS_BOOTS;
 	public static final DeferredItem<Item> CAPYBARA_SPAWN_EGG;
 	public static final DeferredItem<Item> WHITE_CONCRETE_STAIRS;
@@ -95,6 +94,7 @@ public class CommunityCollectionModItems {
 	public static final DeferredItem<Item> RICE_PLANT;
 	public static final DeferredItem<Item> BOWL_OF_RICE;
 	public static final DeferredItem<Item> CAPYBARA_HIDE;
+	public static final DeferredItem<Item> PERMAFROST;
 	static {
 		OAK_APPLE_LEAVES = block(CommunityCollectionModBlocks.OAK_APPLE_LEAVES);
 		APPLE_TREE_SAPLING = block(CommunityCollectionModBlocks.APPLE_TREE_SAPLING);
@@ -125,7 +125,6 @@ public class CommunityCollectionModItems {
 		COCONUT_MILK = register("coconut_milk", CoconutMilkItem::new);
 		COCONUT_BLOCK = block(CommunityCollectionModBlocks.COCONUT_BLOCK);
 		ICICLE = block(CommunityCollectionModBlocks.ICICLE);
-		PERMAFROST = block(CommunityCollectionModBlocks.PERMAFROST);
 		RABBIT_BOOTS_BOOTS = register("rabbit_boots_boots", RabbitBootsItem.Boots::new);
 		CAPYBARA_SPAWN_EGG = register("capybara_spawn_egg", properties -> new SpawnEggItem(CommunityCollectionModEntities.CAPYBARA.get(), properties));
 		WHITE_CONCRETE_STAIRS = block(CommunityCollectionModBlocks.WHITE_CONCRETE_STAIRS);
@@ -165,6 +164,7 @@ public class CommunityCollectionModItems {
 		RICE_PLANT = doubleBlock(CommunityCollectionModBlocks.RICE_PLANT);
 		BOWL_OF_RICE = register("bowl_of_rice", BowlOfRiceItem::new);
 		CAPYBARA_HIDE = register("capybara_hide", CapybaraHideItem::new);
+		PERMAFROST = block(CommunityCollectionModBlocks.PERMAFROST);
 	}
 
 	// Start of user code block custom items

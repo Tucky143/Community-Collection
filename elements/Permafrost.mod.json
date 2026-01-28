@@ -43,8 +43,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 1.0,
+    "hardness": 2.0,
+    "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
@@ -53,10 +53,10 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "DECORATIONS"
       }
     ],
-    "destroyTool": "shovel",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -64,7 +64,7 @@
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": true,
     "canRedstoneConnect": false,
@@ -84,20 +84,20 @@
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "strippingResult": {
-      "value": "Blocks.DIRT#1"
+      "value": ""
     },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.8,
-    "speedFactor": 1.1,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SOUL_SOIL"
+      "value": "SNOW"
     },
     "breakSound": {
       "value": ""
@@ -116,7 +116,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],

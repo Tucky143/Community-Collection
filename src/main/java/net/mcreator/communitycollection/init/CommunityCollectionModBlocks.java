@@ -41,7 +41,6 @@ public class CommunityCollectionModBlocks {
 	public static final DeferredBlock<Block> PALM_TREE_SAPLING;
 	public static final DeferredBlock<Block> COCONUT_BLOCK;
 	public static final DeferredBlock<Block> ICICLE;
-	public static final DeferredBlock<Block> PERMAFROST;
 	public static final DeferredBlock<Block> WHITE_CONCRETE_STAIRS;
 	public static final DeferredBlock<Block> WHITE_CONCRETE_SLAB;
 	public static final DeferredBlock<Block> ORANGE_CONCRETE_STAIRS;
@@ -75,6 +74,7 @@ public class CommunityCollectionModBlocks {
 	public static final DeferredBlock<Block> BLACK_CONCRETE_STAIRS;
 	public static final DeferredBlock<Block> BLACK_CONCRETE_SLAB;
 	public static final DeferredBlock<Block> RICE_PLANT;
+	public static final DeferredBlock<Block> PERMAFROST;
 	static {
 		OAK_APPLE_LEAVES = register("oak_apple_leaves", OakAppleLeavesBlock::new);
 		APPLE_TREE_SAPLING = register("apple_tree_sapling", AppleTreeSaplingBlock::new);
@@ -97,7 +97,6 @@ public class CommunityCollectionModBlocks {
 		PALM_TREE_SAPLING = register("palm_tree_sapling", PalmTreeSaplingBlock::new);
 		COCONUT_BLOCK = register("coconut_block", CoconutBlockBlock::new);
 		ICICLE = register("icicle", IcicleBlock::new);
-		PERMAFROST = register("permafrost", PermafrostBlock::new);
 		WHITE_CONCRETE_STAIRS = register("white_concrete_stairs", WhiteConcreteStairsBlock::new);
 		WHITE_CONCRETE_SLAB = register("white_concrete_slab", WhiteConcreteSlabBlock::new);
 		ORANGE_CONCRETE_STAIRS = register("orange_concrete_stairs", OrangeConcreteStairsBlock::new);
@@ -131,6 +130,7 @@ public class CommunityCollectionModBlocks {
 		BLACK_CONCRETE_STAIRS = register("black_concrete_stairs", BlackConcreteStairsBlock::new);
 		BLACK_CONCRETE_SLAB = register("black_concrete_slab", BlackConcreteSlabBlock::new);
 		RICE_PLANT = register("rice_plant", RicePlantBlock::new);
+		PERMAFROST = register("permafrost", PermafrostBlock::new);
 	}
 
 	// Start of user code block custom blocks

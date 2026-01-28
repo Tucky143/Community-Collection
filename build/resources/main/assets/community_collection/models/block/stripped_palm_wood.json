@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "community_collection:block/stripped_palm_log",
-    "particle": "community_collection:block/stripped_palm_log"
-  },
-  "render_type": "solid"
-}

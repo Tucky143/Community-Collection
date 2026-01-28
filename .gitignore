@@ -1,0 +1,12 @@
+# Exclude build output and run directories
+build/
+run/
+
+# Exclude MCreator and Gradle metadata
+.mcreator/
+.gradle/
+
+# Optional: Common IDE and system files
+.idea/
+*.log
+.DS_Store

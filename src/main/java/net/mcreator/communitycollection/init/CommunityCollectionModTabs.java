@@ -81,8 +81,8 @@ public class CommunityCollectionModTabs {
 			tabData.accept(CommunityCollectionModBlocks.ICICLE.get().asItem());
 			tabData.accept(CommunityCollectionModItems.RICE.get());
 			tabData.accept(CommunityCollectionModBlocks.RICE_PLANT.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(CommunityCollectionModBlocks.PERMAFROST.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(CommunityCollectionModBlocks.PALM_LOG.get().asItem());
 			tabData.accept(CommunityCollectionModBlocks.PALM_WOOD.get().asItem());
 			tabData.accept(CommunityCollectionModBlocks.STRIPPED_PALM_LOG.get().asItem());

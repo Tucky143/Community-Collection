@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "community_collection:block/palm_tree_sapling",
-    "particle": "community_collection:block/palm_tree_sapling"
-  },
-  "render_type": "cutout"
-}

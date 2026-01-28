@@ -1424,24 +1424,6 @@
       "path": "~/Ice Caves"
     },
     {
-      "name": "Permafrost",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "permafrost",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/community_collection/models/item/permafrost.json",
-          "src/main/java/net/mcreator/communitycollection/block/PermafrostBlock.java",
-          "src/main/resources/assets/community_collection/items/permafrost.json",
-          "src/main/resources/data/community_collection/loot_table/blocks/permafrost.json",
-          "src/main/resources/assets/community_collection/models/block/permafrost.json",
-          "src/main/resources/assets/community_collection/blockstates/permafrost.json"
-        ]
-      },
-      "path": "~/Ice Caves"
-    },
-    {
       "name": "CaveIceSpike",
       "type": "feature",
       "compiles": true,
@@ -3376,6 +3358,24 @@
         ]
       },
       "path": "~/Capybara"
+    },
+    {
+      "name": "Permafrost",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "permafrost",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/community_collection/models/item/permafrost.json",
+          "src/main/java/net/mcreator/communitycollection/block/PermafrostBlock.java",
+          "src/main/resources/assets/community_collection/items/permafrost.json",
+          "src/main/resources/data/community_collection/loot_table/blocks/permafrost.json",
+          "src/main/resources/assets/community_collection/models/block/permafrost.json",
+          "src/main/resources/assets/community_collection/blockstates/permafrost.json"
+        ]
+      },
+      "path": "~/Ice Caves"
     }
   ],
   "variable_elements": [
@@ -3556,6 +3556,7 @@
       "CUSTOM:IceCave"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Permafrost",
       "~CUSTOM:BlackConcreteSlab",
       "~CUSTOM:BlackConcreteStairs",
       "~CUSTOM:RedConcreteSlab",
@@ -3589,12 +3590,6 @@
       "~CUSTOM:WhiteConcreteSlab",
       "~CUSTOM:WhiteConcreteStairs",
       "~CUSTOM:Icicle"
-    ],
-    "BLOCKS:minecraft:mineable/shovel": [
-      "~CUSTOM:Permafrost"
-    ],
-    "BLOCKS:minecraft:dirt": [
-      "CUSTOM:Permafrost"
     ],
     "ITEMS:minecraft:foot_armor": [
       "~CUSTOM:RabbitBoots.boots"
@@ -3682,6 +3677,18 @@
     ],
     "ITEMS:minecraft:concrete": [
       "TAG:minecraft:concrete"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Permafrost"
+    ],
+    "BIOMES:minecraft:without_wandering_trader_spawns": [
+      "CUSTOM:IceCave"
+    ],
+    "BLOCKS:minecraft:animals_spawnable_on": [
+      "CUSTOM:Permafrost"
+    ],
+    "BLOCKS:minecraft:base_stone_overworld": [
+      "CUSTOM:Permafrost"
     ]
   },
   "tab_element_order": {
@@ -3695,10 +3702,10 @@
       "BlueberryBush",
       "GrownBlueberryBush",
       "Rice",
-      "RicePlant"
+      "RicePlant",
+      "Permafrost"
     ],
     "BUILDING_BLOCKS": [
-      "Permafrost",
       "PalmLog",
       "PalmWood",
       "StrippedPalmLog",
@@ -3752,7 +3759,6 @@
       "item.community_collection.coconut_block": "Coconut Block",
       "biome.community_collection.ice_cave": "Ice Cave",
       "item.community_collection.icicle": "Icicle",
-      "item.community_collection.permafrost": "Permafrost",
       "item.community_collection.rabbit_boots_boots": "Rabbit Boots",
       "entity.community_collection.capybara": "Capybara",
       "item.community_collection.capybara_spawn_egg": "Capybara Spawn Egg",
@@ -3802,7 +3808,8 @@
       "item.minecraft.tipped_arrow.effect.potion_of_shrinking": "Arrow of Shrinking",
       "item.minecraft.lingering_potion.effect.potion_of_shrinking": "Lingering Potion of Shrinking",
       "item.minecraft.splash_potion.effect.potion_of_shrinking": "Splash Potion of Shrinking",
-      "item.minecraft.potion.effect.potion_of_shrinking": "Potion of Shrinking"
+      "item.minecraft.potion.effect.potion_of_shrinking": "Potion of Shrinking",
+      "item.community_collection.permafrost": "Permafrost"
     }
   },
   "metadata": {

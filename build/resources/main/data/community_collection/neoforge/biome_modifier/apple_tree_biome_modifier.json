@@ -1,9 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": [
-    "forest",
-    "flower_forest"
-  ],
-  "features": "community_collection:apple_tree",
-  "step": "vegetal_decoration"
-}

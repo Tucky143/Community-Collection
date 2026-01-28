@@ -1,7 +1,5 @@
 package net.mcreator.communitycollection.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
@@ -10,10 +8,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.util.RandomSource;
-import net.minecraft.util.Mth;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
@@ -31,17 +26,6 @@ public class IcicleOnTickUpdateProcedure {
 				_entityToSpawn.setPos(x, y, z);
 				_entityToSpawn.shoot(0, 0, 0, 1, 0);
 				projectileLevel.addFreshEntity(_entityToSpawn);
-			}
-		}
-		if (!world.getEntitiesOfClass(Player.class, new AABB(Vec3.ZERO, Vec3.ZERO).move(new Vec3(x, y, z)).inflate(5 / 2d), e -> true).isEmpty()) {
-			if (Mth.nextInt(RandomSource.create(), 0, 20000) == 1) {
-				if (world instanceof ServerLevel projectileLevel) {
-					Projectile _entityToSpawn = initArrowProjectile(new IcicleProjectileEntity(CommunityCollectionModEntities.ICICLE_PROJECTILE.get(), 0, 0, 0, projectileLevel, createArrowWeaponItemStack(projectileLevel, 1, (byte) 0)), null, 3, true,
-							false, false, AbstractArrow.Pickup.DISALLOWED);
-					_entityToSpawn.setPos(x, (y - 0.9), z);
-					_entityToSpawn.shoot(0, 0, 0, 0, 0);
-					projectileLevel.addFreshEntity(_entityToSpawn);
-				}
 			}
 		}
 	}

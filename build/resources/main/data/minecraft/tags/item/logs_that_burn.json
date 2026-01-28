@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id": "#community_collection:palm_logs",
-      "required": false
-    }
-  ]
-}

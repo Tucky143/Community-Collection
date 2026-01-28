@@ -1,8 +1,0 @@
-{
-  "parent": "block/button_pressed",
-  "textures": {
-    "texture": "community_collection:block/palm_planks",
-    "particle": "community_collection:block/palm_planks"
-  },
-  "render_type": "solid"
-}

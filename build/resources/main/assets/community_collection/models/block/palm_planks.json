@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "community_collection:block/palm_planks",
-    "particle": "community_collection:block/palm_planks"
-  },
-  "render_type": "solid"
-}

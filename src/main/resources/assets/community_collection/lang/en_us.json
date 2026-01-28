@@ -31,7 +31,6 @@
   "item.community_collection.coconut_block": "Coconut Block",
   "biome.community_collection.ice_cave": "Ice Cave",
   "item.community_collection.icicle": "Icicle",
-  "item.community_collection.permafrost": "Permafrost",
   "item.community_collection.rabbit_boots_boots": "Rabbit Boots",
   "entity.community_collection.capybara": "Capybara",
   "item.community_collection.capybara_spawn_egg": "Capybara Spawn Egg",
@@ -81,5 +80,6 @@
   "item.minecraft.tipped_arrow.effect.potion_of_shrinking": "Arrow of Shrinking",
   "item.minecraft.lingering_potion.effect.potion_of_shrinking": "Lingering Potion of Shrinking",
   "item.minecraft.splash_potion.effect.potion_of_shrinking": "Splash Potion of Shrinking",
-  "item.minecraft.potion.effect.potion_of_shrinking": "Potion of Shrinking"
+  "item.minecraft.potion.effect.potion_of_shrinking": "Potion of Shrinking",
+  "item.community_collection.permafrost": "Permafrost"
 }

@@ -1,12 +1,28 @@
 {
-  "type": "minecraft:simple_block",
+  "type": "minecraft:random_patch",
   "config": {
-    "to_place": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "community_collection:icicle"
-      }
-    },
-    "schedule_tick": true
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "community_collection:icicle"
+            }
+          },
+          "schedule_tick": true
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
   }
 }

@@ -69,7 +69,7 @@
       "value": -10027009,
       "falpha": 0.0
     },
-    "spawnEggTexture": "",
+    "spawnEggTexture": "jellyfish_spawn_egg_generated",
     "creativeTabs": [
       {
         "value": "MISC"

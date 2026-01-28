@@ -1,6 +1,6 @@
 {
   "has_precipitation": true,
-  "temperature": 0,
+  "temperature": 0.5,
   "downfall": 1,
   "effects": {
     "music": [
@@ -30,8 +30,14 @@
   "spawners": {
     "monster": [
       {
-        "type": "stray",
+        "type": "skeleton",
         "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "zombie",
+        "weight": 4,
         "minCount": 1,
         "maxCount": 4
       }
@@ -39,12 +45,19 @@
     "creature": [
       {
         "type": "snow_golem",
-        "weight": 1,
+        "weight": 20,
         "minCount": 1,
-        "maxCount": 1
+        "maxCount": 4
       }
     ],
-    "ambient": [],
+    "ambient": [
+      {
+        "type": "bat",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],

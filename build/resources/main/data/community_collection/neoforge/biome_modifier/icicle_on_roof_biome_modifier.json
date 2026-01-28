@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "community_collection:ice_cave",
-  "features": "community_collection:icicle_on_roof",
-  "step": "underground_decoration"
-}
